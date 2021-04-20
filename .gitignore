@@ -4,6 +4,7 @@
 *.gif
 **/downloaded
 **/bino-cradle
+**/printer-friendly
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
