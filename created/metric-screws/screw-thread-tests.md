@@ -249,3 +249,13 @@ Testing using Prusa mk3i with Prusa Slicer and TinkerCad web. 0.15 tip, 25% infi
   - Physical measurements shaft: 8x8x24.5 mm
   - M8 VIII nut fits very well, minor rattle.
   - M8 IX nut fits perfectly, almost no rattle.
+
+- M8 (marked "XV") - SUCCESS
+  - Printed 1 bolt and 1 nut 
+  - Design measurements nut: 13x15x6.5 mm
+  - Design measurements head: 13x15x6.5 mm
+  - Design measurements shaft: 8.75x8.75x24.5 mm
+  - Physical measurements nut: 13x15x6.5 mm
+  - Physical measurements head: 13x15x6.5 mm
+  - Physical measurements shaft: 8x8x24.5 mm
+  - M8 XV nut fits very well, minor rattle.
