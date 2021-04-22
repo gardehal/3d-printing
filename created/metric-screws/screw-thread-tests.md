@@ -259,3 +259,24 @@ Testing using Prusa mk3i with Prusa Slicer and TinkerCad web. 0.15 tip, 25% infi
   - Physical measurements head: 13x15x6.5 mm
   - Physical measurements shaft: 8x8x24.5 mm
   - M8 XV nut fits very well, minor rattle.
+
+- M4 (marked "XV") - FAIL
+  - Printed 1 bolt and 1 nut 
+  - Nut and bolt does not fit together at all, screw clears hole.
+  - Nut is too tight for M4 IV bolt.
+  - Screw is too thin for M4 IV nut.
+
+tdoo
+  - Design measurements nut: 13x15x6.5 mm
+  - Design measurements head: 13x15x6.5 mm
+  - Design measurements shaft: 8.75x8.75x24.5 mm
+  - Physical measurements nut: 13x15x6.5 mm
+  - Physical measurements head: 13x15x6.5 mm
+  - Physical measurements shaft: 8x8x24.5 mm
+
+
+
+  - Screw shaft with threads is about 3.5 mm, should be 4 mm.
+  - Allen key slot is barely 2.5 mm but a 2.5 mm allen key doesn't work. 
+  - 3 mm allen key with chamfering can be forced into slot and will turn the screw.
+  - Will reprint with + 0.75 mm.   
