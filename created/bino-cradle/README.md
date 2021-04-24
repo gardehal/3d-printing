@@ -59,7 +59,8 @@ Part-B is for the thin cylinder. Made for Optic-B which has a hard metal surface
 
 Part-C are 2 M4 screws and a M4 nut to keep Part-A and Part-B together and adjust the angle of elevation.
 
-- TODO
+- Copied two M4-14 screws (M4-C1, M4-C2) and one M4 nut (M4n-C) from metric screws project.
+- Printed Part-C.  
 
 ### Conclusions
 
@@ -78,3 +79,40 @@ Part-C are 2 M4 screws and a M4 nut to keep Part-A and Part-B together and adjus
   - A better solution might be 2 longer screws on each side of Part-A with a slight angle towards Part-B, pushing directly down. Less directional stress on screw with the option of small amount of roll on Part-A.
 - Enlarged nuts M4n-A2, M4n-A3, M4n-B are larger than necessary, allows for yaw and elevation of parts A and B.
 - Action likely would be smoother if M4n-A2, M4n-A3, M4n-B were circles, not hexagonal shapes.
+- Can add a M8 nut for tripod or clamp setup later.
+- When designing, be careful when combining.
+  - Combine objects to make the smaller parts of a build, but don't all the sub-parts until right before printing.
+  - Not combining as you go makes these separate sub-parts easier to adjust other parts later.
+  - Lock sub-parts in place to stop accidentally changing them.
+  - Save the build uncombined, only combine to export and print.
+
+## Version 2
+### Part-A
+
+Using Part-A v1 as starting point.
+
+- Copied Part-A (Part-A-v2)
+- Locked Part-A-v2 in place.
+- Copied M8 nut (M8n-A) from metrics screws project.
+- Aligned Part-A-v2 and M8n-A.
+- Rotated M8n-A 90 degrees so hole aligns with Y axis.
+- Moved M8n-A -14 mm Y, -2 mm X so the nut is exposed on the side (Remember to add support structures).
+- Alined Part-A-v2 and M8n-A with the top of Part-A-v2, then moved M8n-A 1 mm down.
+- Copied negative space of Part-A-v2 (Part-A-v2-negative), moved it -2 mm Y.
+- Combined Part-A-v2-negative and M8n-A to hide nut inside cradle.
+- Locked M8n-A in place.
+- Created new hinge for screw with circle instead of hex nut.
+  - Created cylinder (Part-A-H), set size to 8x8x3.5 mm.
+  - Created negative space cylinder for screw (Part-A-H-negative) as 4.5x4.5x5 mm.
+  - Aligned Part-A-H-negative and Part-A-H along middle of all axes.
+  - Combined parts.
+- Created negative space cylinder (Part-B-H-negative) for Part-B hinge, 8x8x20 mm.
+- Aligned Part-A-v2, Part-B-H-negative and Part-A-H along middle X and Y axis, bottom of Z axis.
+- Moved Part-B-H-negative and Part-A-H +14.5 mm along X.
+- Combined Part-B-H-negative and Part-A-v2.
+- Combined Part-A-H and Part-A-v2.
+- Created a box (Part-A-H-gap), 6x3.5x1 mm to fill cap under Part-A-H.
+- Aligned Part-A-v2 and Part-A-H-gap along middle X and Y axis, bottom of Z axis.
+- Moved Part-A-H-gap +8 mm on X.
+- Combined Part-A-H-gap and Part-A-v2.
+- Printed Part-A-v2. 
