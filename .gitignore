@@ -3,7 +3,6 @@
 *.jpeg
 *.gif
 **/downloaded
-**/bino-cradle
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
