@@ -97,7 +97,7 @@ Using Part-A v1 as starting point.
 - Aligned Part-A-v2 and M8n-A.
 - Rotated M8n-A 90 degrees so hole aligns with Y axis.
 - Moved M8n-A -14 mm Y, -2 mm X so the nut is exposed on the side (Remember to add support structures).
-- Alined Part-A-v2 and M8n-A with the top of Part-A-v2, then moved M8n-A 1 mm down.
+- Alined Part-A-v2 and M8n-A with the bottom of Part-A-v2, then moved M8n-A 1 mm up Z.
 - Copied negative space of Part-A-v2 (Part-A-v2-negative), moved it -2 mm Y.
 - Combined Part-A-v2-negative and M8n-A to hide nut inside cradle.
 - Locked M8n-A in place.
