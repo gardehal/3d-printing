@@ -87,32 +87,49 @@ Part-C are 2 M4 screws and a M4 nut to keep Part-A and Part-B together and adjus
   - Save the build uncombined, only combine to export and print.
 
 ## Version 2
+
+### Part-B
+
+Using Part-B v1 as starting point.
+
+- Copied Part-B (Part-B-v2)
+- Locked Part-B-v2 in place.
+- Copied M8 nut (M8n-B) from metrics screws project.
+- Aligned Part-B-v2 and M8n-B.
+- Rotated M8n-B 90 degrees so hole aligns with Y axis.
+- Moved M8n-B -14 mm Y, -2 mm X so the nut is exposed on the side (Remember to add support structures).
+- Alined Part-B-v2 and M8n-B with the bottom of Part-B-v2, then moved M8n-B 1 mm up Z.
+- Copied negative space of Part-B-v2 (Part-B-v2-negative), moved it -2 mm Y.
+- Combined Part-B-v2-negative and M8n-B to hide nut inside cradle.
+- Locked M8n-B in place.
+- Created new hinge for screw with circle instead of hex nut.
+  - Created cylinder (Part-B-H), set size to 8x8x3.5 mm.
+  - Created negative space cylinder for screw (Part-B-H-negative) as 4.5x4.5x5 mm.
+  - Aligned Part-B-H-negative and Part-B-H along middle of all axes.
+  - Combined parts.
+- Created negative space cylinder (Part-B-H-negative) for Part-A hinge, 8x8x20 mm.
+- Aligned Part-B-v2, Part-B-H-negative and Part-B-H along middle X and Y axis, bottom of Z axis.
+- Moved Part-B-H-negative and Part-B-H +14.5 mm along X.
+- Combined Part-B-H-negative and Part-B-v2.
+- Combined Part-B-H and Part-B-v2.
+- Created a box (Part-B-H-gap), 6x3.5x1 mm to fill cap under Part-B-H.
+- Aligned Part-B-v2 and Part-B-H-gap along middle X and Y axis, bottom of Z axis.
+- Moved Part-B-H-gap +8 mm on X.
+- Combined Part-B-H-gap and Part-B-v2.
+- Printed Part-B-v2. 
+
 ### Part-A
 
 Using Part-A v1 as starting point.
 
 - Copied Part-A (Part-A-v2)
 - Locked Part-A-v2 in place.
-- Copied M8 nut (M8n-A) from metrics screws project.
-- Aligned Part-A-v2 and M8n-A.
-- Rotated M8n-A 90 degrees so hole aligns with Y axis.
-- Moved M8n-A -14 mm Y, -2 mm X so the nut is exposed on the side (Remember to add support structures).
-- Alined Part-A-v2 and M8n-A with the bottom of Part-A-v2, then moved M8n-A 1 mm up Z.
-- Copied negative space of Part-A-v2 (Part-A-v2-negative), moved it -2 mm Y.
-- Combined Part-A-v2-negative and M8n-A to hide nut inside cradle.
-- Locked M8n-A in place.
-- Created new hinge for screw with circle instead of hex nut.
-  - Created cylinder (Part-A-H), set size to 8x8x3.5 mm.
-  - Created negative space cylinder for screw (Part-A-H-negative) as 4.5x4.5x5 mm.
-  - Aligned Part-A-H-negative and Part-A-H along middle of all axes.
-  - Combined parts.
-- Created negative space cylinder (Part-B-H-negative) for Part-B hinge, 8x8x20 mm.
-- Aligned Part-A-v2, Part-B-H-negative and Part-A-H along middle X and Y axis, bottom of Z axis.
-- Moved Part-B-H-negative and Part-A-H +14.5 mm along X.
-- Combined Part-B-H-negative and Part-A-v2.
-- Combined Part-A-H and Part-A-v2.
-- Created a box (Part-A-H-gap), 6x3.5x1 mm to fill cap under Part-A-H.
-- Aligned Part-A-v2 and Part-A-H-gap along middle X and Y axis, bottom of Z axis.
-- Moved Part-A-H-gap +8 mm on X.
-- Combined Part-A-H-gap and Part-A-v2.
-- Printed Part-A-v2. 
+- Replaced M4n-A2 and M4n-A3 with round hinged used in Part-B-v2, along with gap fillers.
+- Rotated M4n-A1 last +80 degrees along Y (was 10 degrees, should now be 90).
+- Rotated M4n-A1 -15 degrees along Z. 
+- Copied M4n-A1 (M4n-A1.1).
+- Aligned M4n-A1 and M4n-A1.1 with middle of Part-A-v2, top Z.
+- Moved M4n-A1 -? mm along Y, making sure Part-A-v2 is not visible inside.
+- Moved M4n-A1.1 +? mm along Y, making sure Part-A-v2 is not visible inside. 
+
+- TODO Add sloped supporting material so the printing of these nuts is easier 
