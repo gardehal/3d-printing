@@ -5,7 +5,7 @@ Two clip-on cradles that come together to hold to binoculars, Optic-A and Optic-
 ## Version 1
 ### Part-A
 
-Part-A is for the thick cylinder. Made for Optic-A which has a loose, firm-rubber cover, 29 mm diameter It measures 29x29x80 mm.
+Part-A is the thick cylinder. Made for Optic-A which has a loose, firm-rubber cover, 29 mm diameter It measures 29x29x80 mm.
 
 - Created representation of Optic-A as per specification.
 - Copied object (Optic-A-Copy) (29x29x80 mm).
@@ -35,7 +35,7 @@ Part-A is for the thick cylinder. Made for Optic-A which has a loose, firm-rubbe
 
 ### Part-B
 
-Part-B is for the thin cylinder. Made for Optic-B which has a hard metal surface, 24 mm diameter. It measures 24x24x100 mm.
+Part-B is the thin cylinder. Made for Optic-B which has a hard metal surface, 24 mm diameter. It measures 24x24x100 mm.
 
 - Created representation of Optic-B as per specification.
 - Copied object (Optic-B-Copy), shrunk diameter by 1 mm to 23 mm (23x23x100 mm).
@@ -126,10 +126,14 @@ Using Part-A v1 as starting point.
 - Locked Part-A-v2 in place.
 - Replaced M4n-A2 and M4n-A3 with round hinged used in Part-B-v2, along with gap fillers.
 - Rotated M4n-A1 last +80 degrees along Y (was 10 degrees, should now be 90).
-- Rotated M4n-A1 -15 degrees along Z. 
+- Rotated M4n-A1 -90 degrees along Z so the hexagonal nut point up and down with a flat face toward +/- Y and hole though +/- X. 
 - Copied M4n-A1 (M4n-A1.1).
 - Aligned M4n-A1 and M4n-A1.1 with middle of Part-A-v2, top Z.
-- Moved M4n-A1 -? mm along Y, making sure Part-A-v2 is not visible inside.
-- Moved M4n-A1.1 +? mm along Y, making sure Part-A-v2 is not visible inside. 
-
-- TODO Add sloped supporting material so the printing of these nuts is easier 
+- Aligned M4n-A1 with max Y of Part-A-v2.
+- Aligned M4n-A1.1 with min Y of Part-A-v2.
+- Moved each 5 mm out.
+- Rotate both -20 degrees so they now face more into Part-B
+- Moved both -5 mm X.
+- Moved both 1 mm in.
+- Mode negative space for screw head (not needed but just in case).
+- Add sloped supporting material so the printing of these nuts is easier, same way as gap filler with hinges. 
