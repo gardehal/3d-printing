@@ -62,6 +62,19 @@ Part-C are 2 M4 screws and a M4 nut to keep Part-A and Part-B together and adjus
 - Copied two M4-14 screws (M4-C1, M4-C2) and one M4 nut (M4n-C) from metric screws project.
 - Printed Part-C.  
 
+### Part-D
+
+Part-D is the ball-joint used to connect the M8n port on Part-B-v2 to Part-E, which is the a clamp that can be used to attach the mount to a wall or table.
+
+- Part-D1
+  - Created a sphere (D1-S), 20x20x20 mm.
+  - Copied M8n form metric screws project (D1-M8n).
+  - Created negative space cylinder (D1-NS), 10x10x10 mm.
+  - Aligned D1-S, D1-M8n, and D1-NS along X and Y, both 0 mm Z.
+  - Combined D1-S and D1-NS (D1-S).
+  - COmbined D1-S and D1-M8n.
+  - Printed Part-D1.
+
 ### Conclusions
 
 - Part-A
@@ -137,3 +150,17 @@ Using Part-A v1 as starting point.
 - Moved both 1 mm in.
 - Mode negative space for screw head (not needed but just in case).
 - Add sloped supporting material so the printing of these nuts is easier, same way as gap filler with hinges. 
+
+### Part-C
+
+Using metric-screws project, created longer screws that can elevate Part-A-v2 from Part-B-x.
+
+- Copied M4 screw head (Part-C-v2-M4-1).
+- Copied extended threaded shaft without a head (Part-C-v2-M4-2).
+- Adjusted size of Part-C-v2-M4-2, toggle relative adjustment, set diameter to 4.4 mm.
+- Centered Part-C-v2-M4-1 and Part-C-v2-M4-2 along X and Y, bottom Z.
+- Measured 14.5 mm and cut the remaining off Part-C-v2-M4-2.
+- Set Z of Part-C-v2-M4-2 to 3 mm (there will be a 0.5 mm overlap with Part-C-v2-M4-1, but the shaft will be 14 mm).
+- Combined Part-C-v2-M4-1 and Part-C-v2-M4-2 (Part-C-v2-M414-1).
+- Copied Part-C-v2-M414-1 (Part-C-v2-M414-2).
+- Printed Part-C-v2.
