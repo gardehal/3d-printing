@@ -74,6 +74,8 @@ Part-D is the ball-joint used to connect the M8n port on Part-B-v2 to Part-E, wh
   - Combined D1-S and D1-NS (D1-S).
   - COmbined D1-S and D1-M8n.
   - Printed Part-D1.
+- Part-D2
+  - TODO- some clamp with screw that can rotate around D1 but be screwed in place
 
 ### Conclusions
 
@@ -101,7 +103,7 @@ Part-D is the ball-joint used to connect the M8n port on Part-B-v2 to Part-E, wh
 
 ## Version 2
 
-### Part-B
+### Part-B-v2
 
 Using Part-B v1 as starting point.
 
@@ -131,7 +133,7 @@ Using Part-B v1 as starting point.
 - Combined Part-B-H-gap and Part-B-v2.
 - Printed Part-B-v2. 
 
-### Part-A
+### Part-A-v2
 
 Using Part-A v1 as starting point.
 
@@ -151,7 +153,7 @@ Using Part-A v1 as starting point.
 - Mode negative space for screw head (not needed but just in case).
 - Add sloped supporting material so the printing of these nuts is easier, same way as gap filler with hinges. 
 
-### Part-C
+### Part-C-v2
 
 Using metric-screws project, created longer screws that can elevate Part-A-v2 from Part-B-x.
 
@@ -164,3 +166,20 @@ Using metric-screws project, created longer screws that can elevate Part-A-v2 fr
 - Combined Part-C-v2-M4-1 and Part-C-v2-M4-2 (Part-C-v2-M414-1).
 - Copied Part-C-v2-M414-1 (Part-C-v2-M414-2).
 - Printed Part-C-v2.
+- Adjusted width of shaft and thread up to 4.5 mm (Part-C-v2.1).
+- Printed Part-C-v2.1.
+- Adjusted width of shaft and thread up to 4.7 mm (Part-C-v2.2).
+- Printed Part-C-v2.2.
+
+### Conclusions version 2
+
+- Part-A-v2, Part-B-v2 elevation
+  - Rounded hinges instead of nuts worked much better than expected, no need to remove gap under for the middle hinge.
+  - Hinges have less wriggle room meaning less slack and inaccuracy, could be reduced by 0.25 or less on each side of the middle hinge.
+  - Elevation solution 
+    - The two screws are able to elevate the parts, but often slip and are hard to reach.
+    - Quick fix is drilling holes for the screws to sit in on Part-B-v2.
+    - Solution 1: using a screw-gear with a quarter of a normal gear plate, but the tolerances and alignment can cause issues.
+    - Solution 2: parallel screws on a pivot that aren't angled towards Part-B-v2, M4n on a pivot on the sides of Part-B-v2. 
+- Part-C-v2
+  - Screws had to be adjusted up more than usual, seems like it could be the issue of Part-A-v2s vertical M4n nuts, but usually printing nuts vertically means they have less clearance for screws.
