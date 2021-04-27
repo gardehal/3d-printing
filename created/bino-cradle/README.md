@@ -76,6 +76,25 @@ Part-D is the ball-joint used to connect the M8n port on Part-B-v2 to Part-E, wh
   - Printed Part-D1.
 - Part-D2
   - TODO- some clamp with screw that can rotate around D1 but be screwed in place
+  - Copied two M8n (D2-M8n-1, D2-M8n-2).
+  - Copied Part-D1 (D2-D1-ns) to model Part-D2 around.
+  - Made D2-D1-ns negative space and locked it in place.
+  - Aligned D2-M8n-1, D2-M8n-2, D2-D1-ns around X and Y, set all part to 0 Z.
+  - Moved D2-M8n-1 -10 mm X.
+  - Moved D2-M8n-2 +10 mm X.
+  - Combined D2-M8n-1 and D2-M8n-2 (D2-M8n).
+  - Aligned D2-M8n and D2-D1-ns around center of D2-D1-ns Z.
+  - Locked D2-M8n in place.
+  - Copied an M8-24 (D2-M8) nut from metric screws project.
+  - Aligned D2-M8 with D2-D1-ns.
+  - Moved D2-M8 +10 mm Z.
+  - Locked D2-M8 in place.
+  - Created a cube to sit on top of the nuts and hold D2 together (D2-bridge) 25x10x5 mm.
+  - Aligned all parts around Y.
+  - Moved D2-bridge +15 mm Z.
+  - Combined all parts.
+  - Printed Part-D2.
+
 
 ### Conclusions
 
