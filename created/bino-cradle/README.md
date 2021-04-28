@@ -96,7 +96,7 @@ Part-D is the ball-joint used to connect the M8n port on Part-B-v2 to Part-E, wh
   - Printed Part-D2.
 
 
-### Conclusions
+### Conclusions, version 1
 
 - Part-A
   - Optic-A is easier to take out of the Part-A than to put in, the loose rubber cover gives in when Optic-A is forced into it's cradle. 
@@ -108,6 +108,9 @@ Part-D is the ball-joint used to connect the M8n port on Part-B-v2 to Part-E, wh
   - Optic-B fits snugly in Part-B, it can be rotated and moved up and down with some force but will not do so by itself, even when experiencing sudden deceleration. 
   - The objects can snap apart and together with great the slightly more force and is quite satisfying. 
   - For hard surfaces, make the cradle area slightly smaller (1 mm for 24 diameter) to increase grip. Corners could be rounded to reduce likelihood of snagging onto loose fabric.
+- Part-D
+  - Had a lot of problems printing Part-D2, it would often come off the printing sheet (making the result useless). This could be partly due to low grip on the printing plate (even with a brim) and difficulty printing overhands such as the top of the part, right below the threads.
+  - Having multiple prints due to error in printing there was an epiphany as the multiple parts can stack on top of each other, meaning multiple Part-D1 and Part-D2 could for a long limb. Although that was part of the larger plan it was not expected to be achieved with version 1 as it was mostly to get a feeling for ball joint size and securing mechanisms.
 
 - Part-As M4n-A1 nut was designed to elevate the angle between the but it's hard to reach, not long enough, and/or not elevate enough. 
   - A better solution might be 2 longer screws on each side of Part-A with a slight angle towards Part-B, pushing directly down. Less directional stress on screw with the option of small amount of roll on Part-A.
@@ -190,7 +193,7 @@ Using metric-screws project, created longer screws that can elevate Part-A-v2 fr
 - Adjusted width of shaft and thread up to 4.7 mm (Part-C-v2.2).
 - Printed Part-C-v2.2.
 
-### Conclusions version 2
+### Conclusions, version 2
 
 - Part-A-v2, Part-B-v2 elevation
   - Rounded hinges instead of nuts worked much better than expected, no need to remove gap under for the middle hinge.
