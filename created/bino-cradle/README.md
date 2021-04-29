@@ -75,9 +75,8 @@ Part-D is the ball-joint used to connect the M8n port on Part-B-v2 to Part-E, wh
   - COmbined D1-S and D1-M8n.
   - Printed Part-D1.
 - Part-D2
-  - TODO- some clamp with screw that can rotate around D1 but be screwed in place
   - Copied two M8n (D2-M8n-1, D2-M8n-2).
-  - Copied Part-D1 (D2-D1-ns) to model Part-D2 around.
+  - Created a sphere (D2-D1-ns), 20.5x20.5x20.5 mm (0.5 mm larger than D1 sphere).
   - Made D2-D1-ns negative space and locked it in place.
   - Aligned D2-M8n-1, D2-M8n-2, D2-D1-ns around X and Y, set all part to 0 Z.
   - Moved D2-M8n-1 -10 mm X.
@@ -89,10 +88,17 @@ Part-D is the ball-joint used to connect the M8n port on Part-B-v2 to Part-E, wh
   - Aligned D2-M8 with D2-D1-ns.
   - Moved D2-M8 +10 mm Z.
   - Locked D2-M8 in place.
-  - Created a cube to sit on top of the nuts and hold D2 together (D2-bridge) 25x10x5 mm.
-  - Aligned all parts around Y.
-  - Moved D2-bridge +15 mm Z.
-  - Combined all parts.
+  - Created a ring (D2-R1) with rounded top and bottom, about 2 mm thick wall, 10 mm high, 21 mm inner diameter, 23 mm outer diameter, 10x23x23 mm.
+  - Copied D2-R1 (D2-R2) and rotated it to degrees around X.
+  - Created a cylinder (D2-R-ns) to clear some space inside the nuts where rings overlap, 50x11x11 mm.
+  - Rotated D2-R-ns +90 degrees along X.
+  - Moved D2-R-ns +1.5 mm Z. 
+  - Created a cylinder (D2-ns1) to clear some space inside joint for ball to slide in, 3x20x20 mm.
+  - Created a cylinder (D2-ns2) to remove unnecessary material under the joint, 3x20x20 mm.
+  - Aligned All parts around X and Y.
+  - Combined D2-R1, D2-R2, and D2-R-ns (D2-R).
+  - Combined D2-M8n, D2-M8, D2-R (D2-F).
+  - Combined D2-D1-ns, D2-ns1, and D2-ns2 with D2-F.
   - Printed Part-D2.
 
 
