@@ -100,7 +100,28 @@ Part-D is the ball-joint used to connect the M8n port on Part-B-v2 to Part-E, wh
   - Combined D2-M8n, D2-M8, D2-R (D2-F).
   - Combined D2-D1-ns, D2-ns1, and D2-ns2 with D2-F.
   - Printed Part-D2.
-
+- Part-D3
+  - Copied a G-clamp (D3-G) from a downloaded project (http://www.thingiverse.com/thing:1673030 clamp_frame_long.stl).
+  - Rotated D3-G +90 around X so it stands as the letter U.
+  - Created a cylinder (D3-ns-A), 10x9x9 mm. 
+  - Created a cylinder (D3-ns-B), 6.5x15x15 mm.
+  - Aligned D3-ns-A and D3-ns-B around X, Y, 0 mm Z.
+  - Combined D3-ns-A and D3-ns-B (D3-ns1) and made it negative space. 
+  - Rotated D3-ns1 +180 degrees X.
+  - Copied D3-ns1 two times (D3-ns2, D3-ns3).
+  - Aligned D3-ns1, D3-ns2, D3-ns3, and D3-G along X, set all to minimum shared Y.
+  - Moved D3-ns1 +40 mm X.
+  - Moved D3-ns2 +11 mm X.
+  - Combined D3-ns1, D3-ns2, and D3-G.
+  - Rotated D3-G +90 degrees so the flat side is DOWN.
+  - Set D3-G Z to 0 mm.
+  - Aligned D3-ns3 and D3-G along X, set all to minimum shared Y.
+  - Moved D3-ns1 +9 mm X.
+  - Combined D3-ns3 and D3-G.
+  - Rotated D3-G back to original position for printing.
+  - Printed Part-D3.
+  - Printed G-clamps other parts (screw and clamp protector).
+  - Printed a M8 screw and a M8 nut from metric screws project.
 
 ### Conclusions, version 1
 
