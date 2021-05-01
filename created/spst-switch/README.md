@@ -71,8 +71,10 @@ Rough plans drawn in paint:
   - Add holes though floor for more wire options.
   - Thinner walls.
   - Should have a lip inside shaped as an upside-down V, so the switch cannot pivot too far down.
+  - Pivot point could be slightly higher.
 - Part-B
-  - Part B should be smaller, 1 or 2 mm so it does not rub against Part-A so much.
+  - Part B should be smaller, 0.5 mm on Y parallel (short sides) so it does not rub against Part-A so much.
+  - Curve could be slightly steeper, but the middle is flush with Part-A.
 - B2
   - Combining A-ns3, A-ns4 was an error, A-ns3 should be used this way, but A-ns4 should be split and the notches rounded, then used on the sloped faces, rather than the vertical faces so Part-B can pivot and lock in place. For testing v0.0.1, these notches were simply cut off after print, before putting the parts together.
 
