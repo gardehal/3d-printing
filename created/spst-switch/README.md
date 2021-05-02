@@ -75,12 +75,38 @@ Rough plans drawn in paint:
 - Part-B
   - Part B should be smaller, 0.5 mm on Y parallel (short sides) so it does not rub against Part-A so much.
   - Curve could be slightly steeper, but the middle is flush with Part-A.
+  - 1 and 0 on switch.
 - B2
   - Combining A-ns3, A-ns4 was an error, A-ns3 should be used this way, but A-ns4 should be split and the notches rounded, then used on the sloped faces, rather than the vertical faces so Part-B can pivot and lock in place. For testing v0.0.1, these notches were simply cut off after print, before putting the parts together.
 
 ---
 
 ### Version 0.0.2
+
+#### Part-A
+
+#### Part-B
+
+1. Used Part-B v0.0.1 as base
+1. Rotated B-ns2 and B-ns3 further, now a total of 30 degrees tilt
+1. Moved B-ns2 and B-ns3 closer tot he part, now 15.5 mm from the collective X
+1. Deleted A-ns4 from B2, not is just the hinge -> B2
+1. Moved B2 +2 mm Z
+1. Created two half cylinders, for notches to lock switch in position, 1x4x2 mm -> B3-1, B3-2
+1. Rotated B3-1 +30 degrees around Z
+1. Rotated B3-2 -30 degrees around Z
+1. Moved B3-1 to middle of sloped face created by B1-ns2
+1. Moved B3-2 to middle of sloped face created by B1-ns3
+1. Combined all parts
+1. Printed part
+
+#### Part-C
+
+#### Review
+
+---
+
+### Version 0.0.3
 
 #### Part-A
 #### Part-B
