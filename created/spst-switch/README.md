@@ -85,6 +85,12 @@ Rough plans drawn in paint:
 
 #### Part-A
 
+1. Used Part-A v0.0.1 as base
+1. Added a 1 mm thin wall 4 mm up from bottom on inside of housing
+1. Removed lip around top for faster print
+1. Removed bottom half for faster print
+1. Printed part
+
 #### Part-B
 
 1. Used Part-B v0.0.1 as base
@@ -100,14 +106,51 @@ Rough plans drawn in paint:
 1. Combined all parts
 1. Printed part
 
-#### Part-C
-
 #### Review
+
+- Wall inside Part-A was not connected to the actual housing, slicer ignored this wall.
+- It's a good idea to prototype with smaller segments before pringint the whole part, print of Part-A 0.0.2 was 60% faster than 0.0.1.
 
 ---
 
 ### Version 0.0.3
 
 #### Part-A
+
+1. Used Part-A v0.0.2 as base, removed inner walls.
+1. Changed size of A-ns1 to 13x26x18 mm
+1. Changed size of A-ns3 to 2x2x19 mm
+1. Moved hinge slots (A-ns3) to max common Z with A1, then -1 mm Z
+1. Printed part
+
 #### Part-B
-#### Part-C
+
+1. Created half cylinder, switch face, 10x26x18 mm -> B1
+1. Created negative space box, switch face, 10x26x18 mm -> B1-ns1
+1. Moved B1-ns1 +5 mm Z
+1. Align center X Y Z
+1. Combined -> B1
+1. Copied B1 -> B2
+1. Rotated B1 +180 degrees around Y
+1. Moved B2 +5 mm Z
+1. Created negative space box, B2 surplus material, 20x20x20 mm -> B2-ns1
+1. Align center X Y Z
+1. Combined B2, B2-ns1 -> B2
+1. Copied A-ns3 from Part-A -> B3
+1. Align center X Y Z
+1. Moved B3 +3 mm
+1. Created two half cylinder, latches, 1x2x4 mm -> B4, B5
+1. Placed B4, B5 on B2
+1. Rotated B4 +75 degrees around Y
+1. Moved B4 -16 mm X
+1. Made sure B4 sits 0.5 mm out of B2
+1. Mirrored last three steps with B5
+1. Combined -> B1
+1. Printed part
+
+#### Review
+
+- Part-A walls too thin and flexible, 2 mm should be fine, maybe lip and floor helps, but Part-A v0.0.2 is strong enough (3 mm walls) without them.
+- Part-B fits better with rounded sides, 
+
+---
