@@ -151,6 +151,6 @@ Rough plans drawn in paint:
 #### Review
 
 - Part-A walls too thin and flexible, 2 mm should be fine, maybe lip and floor helps, but Part-A v0.0.2 is strong enough (3 mm walls) without them.
-- Part-B fits better with rounded sides, 
+- Part-B fits better with rounded sides, slots for hinge and locking notches needs to be moved up, preferably the end of the active side should be close to flush with Part-A.
 
 ---
