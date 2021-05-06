@@ -178,4 +178,10 @@ Rough plans drawn in paint:
 
 #### Review
 
+- Part-A still weak even with brace, should have 3 mm thick walls.
+- Part-B too large, shaving off 0.5 to 1 mm width-wise seems like it should be enough.
+- Part-B should be more hollow to reduce material.
+- Part-B should can have hollow "1" and "0" markings, making them extruding is difficult to print.
+- Hinge and notches seem to be in a good position, does not seem to let anything though the off-side when on.
+
 ---
