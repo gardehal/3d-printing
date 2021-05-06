@@ -154,3 +154,28 @@ Rough plans drawn in paint:
 - Part-B fits better with rounded sides, slots for hinge and locking notches needs to be moved up, preferably the end of the active side should be close to flush with Part-A.
 
 ---
+
+### Version 0.0.4
+
+#### Part-A
+
+1. Used Part-A v0.0.3 as base
+1. Changed size of A-ns3 to 2x4x30 mm
+1. Changed size of A-ns4 to 2x4x24.8 mm
+1. Created a copy of A1 -> A2
+1. Changed size of A2 to 2x22x30 mm
+1. Aligned A1 and A2 with common top Z
+1. Moved A2 -2 mm Z
+1. Combined -> A1
+1. Printed part
+
+#### Part-B
+
+1. Used Part-B v0.0.3 as base
+1. Moved B3 and B2-ns1 +2 mm Z
+1. Combined -> B1
+1. Printed part
+
+#### Review
+
+---
