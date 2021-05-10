@@ -185,3 +185,23 @@ Rough plans drawn in paint:
 - Hinge and notches seem to be in a good position, does not seem to let anything though the off-side when on.
 
 ---
+
+### Version 0.0.5
+
+#### Part-A
+
+1. Used Part-A v0.0.4 as base
+1. Changed size of A-ns3 to 17x17x25 mm
+1. Removed temporary unnamed brace
+1. Combined -> A1
+1. Printed part
+
+#### Part-B
+
+1. Used Part-B v0.0.4 as base
+1. Shrunk all parts but A-ns4 1.5 mm Y
+1. Shrunk all parts but A-ns3 1 mm X
+1. Combined -> B1
+1. Printed part
+
+---
