@@ -204,4 +204,10 @@ Rough plans drawn in paint:
 1. Combined -> B1
 1. Printed part
 
+#### Review
+- Forgot numbers again
+- The switch works as expected, but it's hard to tell if the notches on the sides enter the slots and exactly when they do.
+- Width of Part-B could be reduced slightly more, less than 0.5 mm. Notches seem to scratch on wall of Part-A.
+- Combining scratching with the missing event of a spring or mechanical even to push the switch away from a middle-position, the project seems somewhat pointless as it won't be as useful as even a temporary replacement for an actual switch.
+
 ---
