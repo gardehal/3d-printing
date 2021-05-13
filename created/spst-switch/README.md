@@ -45,7 +45,6 @@ Rough plans drawn in paint:
 1. Aligned A1, A-ns3, A-ns4 around X and Y.
 1. Moved A-ns3, A-ns4 +10 mm Z
 1. Combine -> A1
-1. Printed A1
 
 #### Part-B
 
@@ -62,7 +61,6 @@ Rough plans drawn in paint:
 1. Moved B-ns2 -18.5 mm X
 1. Moved B-ns3 +18.5 mm X
 1. Combine -> B1
-1. Printed B1
 
 #### Review
 
@@ -89,7 +87,6 @@ Rough plans drawn in paint:
 1. Added a 1 mm thin wall 4 mm up from bottom on inside of housing
 1. Removed lip around top for faster print
 1. Removed bottom half for faster print
-1. Printed part
 
 #### Part-B
 
@@ -104,7 +101,6 @@ Rough plans drawn in paint:
 1. Moved B3-1 to middle of sloped face created by B1-ns2
 1. Moved B3-2 to middle of sloped face created by B1-ns3
 1. Combined all parts
-1. Printed part
 
 #### Review
 
@@ -121,7 +117,6 @@ Rough plans drawn in paint:
 1. Changed size of A-ns1 to 13x26x18 mm
 1. Changed size of A-ns3 to 2x2x19 mm
 1. Moved hinge slots (A-ns3) to max common Z with A1, then -1 mm Z
-1. Printed part
 
 #### Part-B
 
@@ -146,7 +141,6 @@ Rough plans drawn in paint:
 1. Made sure B4 sits 0.5 mm out of B2
 1. Mirrored last three steps with B5
 1. Combined -> B1
-1. Printed part
 
 #### Review
 
@@ -167,14 +161,12 @@ Rough plans drawn in paint:
 1. Aligned A1 and A2 with common top Z
 1. Moved A2 -2 mm Z
 1. Combined -> A1
-1. Printed part
 
 #### Part-B
 
 1. Used Part-B v0.0.3 as base
 1. Moved B3 and B2-ns1 +2 mm Z
 1. Combined -> B1
-1. Printed part
 
 #### Review
 
@@ -194,7 +186,6 @@ Rough plans drawn in paint:
 1. Changed size of A-ns3 to 17x17x25 mm
 1. Removed temporary unnamed brace
 1. Combined -> A1
-1. Printed part
 
 #### Part-B
 
@@ -202,12 +193,29 @@ Rough plans drawn in paint:
 1. Shrunk all parts but A-ns4 1.5 mm Y
 1. Shrunk all parts but A-ns3 1 mm X
 1. Combined -> B1
-1. Printed part
 
 #### Review
+
+- Part-A hinge holes are slightly too small due to printer support structure. For printing purposes, they should be slightly large than intended size, around 0.1 mm.
 - Forgot numbers again
 - The switch works as expected, but it's hard to tell if the notches on the sides enter the slots and exactly when they do.
 - Width of Part-B could be reduced slightly more, less than 0.5 mm. Notches seem to scratch on wall of Part-A.
 - Combining scratching with the missing event of a spring or mechanical even to push the switch away from a middle-position, the project seems somewhat pointless as it won't be as useful as even a temporary replacement for an actual switch.
+
+### Version 0.0.6
+
+#### Part-A
+
+1. Used Part-A v0.0.5 as base
+1. Changed size of A-ns2 to 40x2.2x2.2 mm
+1. Combined -> A1
+
+#### Part-B
+
+1. Used Part-B v0.0.5 as base
+1. Shrunk all parts but A-ns3 0.5 mm X
+1. Combined -> B1
+
+#### Review
 
 ---
