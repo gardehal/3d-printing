@@ -227,5 +227,28 @@ Rough plans drawn in paint:
 - Notch still align fine with slots.
 - There's an obvious connection between the position of the hinge vs the path Part-B will take inside the housing of Part-A. I think I've accidentally stumbled upon a fairly decent setup despite planning to make a more conscious effort to align them at some later time whenever the relative sizes were in order (as they seem now).
 - Next part will be restoring the lower part of Part-A which was removed to speed up the printing process. Then deal with the setup for completing the circuits by touching the wires when the switch is on.
+- Seems one of the notches on Part-B doesn't align with the slot, realign all parts.
+
+---
+
+### Version 0.0.7
+
+#### Part-A
+
+1. Used Part-A v0.0.6 as base
+1. Added bottom half again (from backup group)
+1. Added brim again (from backup group)
+1. ...
+1. Combined -> A1
+
+#### Part-B
+
+1. Used Part-B v0.0.6 as base
+1. Re-aligned notch out of place
+1. Combined -> B1
+
+#### Review
+
+- ?
 
 ---
