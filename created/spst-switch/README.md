@@ -214,8 +214,18 @@ Rough plans drawn in paint:
 
 1. Used Part-B v0.0.5 as base
 1. Shrunk all parts but A-ns3 0.5 mm X
+1. Added a "1" and "0" to the top
 1. Combined -> B1
 
 #### Review
+
+- Part-A hinge still bulges around the hinge, but is not as bad.
+- Shrinking Part-B lets some light though the activated side.
+- Shrinking helped a lot with resistance on switch action.
+- The activated side is slightly lower than the housing (creating a small indent, maybe 0.15 mm).
+- Remaining resistance of switch action creates a pseudo "snap-to-action" effect which is very much wanted.
+- Notch still align fine with slots.
+- There's an obvious connection between the position of the hinge vs the path Part-B will take inside the housing of Part-A. I think I've accidentally stumbled upon a fairly decent setup despite planning to make a more conscious effort to align them at some later time whenever the relative sizes were in order (as they seem now).
+- Next part will be restoring the lower part of Part-A which was removed to speed up the printing process. Then deal with the setup for completing the circuits by touching the wires when the switch is on.
 
 ---
