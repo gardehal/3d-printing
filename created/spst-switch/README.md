@@ -238,13 +238,18 @@ Rough plans drawn in paint:
 1. Used Part-A v0.0.6 as base
 1. Added bottom half again (from backup group)
 1. Added brim again (from backup group)
-1. ...
+1. Added a rectangle, a small snap-in clip to hold the wire coming in, 2x4x4 mm -> A-c1
+1. TODO: add a groove and slot for wire
+1. TODO: some well for exposed wires to nest/rest in, part-b gets a hammer
 1. Combined -> A1
 
 #### Part-B
 
 1. Used Part-B v0.0.6 as base
 1. Re-aligned notch out of place
+1. TODO: add a clip for wire
+1. TODO: add a groove and slot for wire
+1. TODO: some well for exposed wires to nest/rest in, part-b gets a hammer
 1. Combined -> B1
 
 #### Review
