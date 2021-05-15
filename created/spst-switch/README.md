@@ -83,14 +83,14 @@ Rough plans drawn in paint:
 
 #### Part-A
 
-1. Used Part-A v0.0.1 as base
+1. Used Part-A v0.0.1 as base -> A1
 1. Added a 1 mm thin wall 4 mm up from bottom on inside of housing
 1. Removed lip around top for faster print
 1. Removed bottom half for faster print
 
 #### Part-B
 
-1. Used Part-B v0.0.1 as base
+1. Used Part-B v0.0.1 as base -> B1
 1. Rotated B-ns2 and B-ns3 further, now a total of 30 degrees tilt
 1. Moved B-ns2 and B-ns3 closer tot he part, now 15.5 mm from the collective X
 1. Deleted A-ns4 from B2, not is just the hinge -> B2
@@ -113,7 +113,7 @@ Rough plans drawn in paint:
 
 #### Part-A
 
-1. Used Part-A v0.0.2 as base, removed inner walls.
+1. Used Part-A v0.0.2 as base, removed inner walls -> A1
 1. Changed size of A-ns1 to 13x26x18 mm
 1. Changed size of A-ns3 to 2x2x19 mm
 1. Moved hinge slots (A-ns3) to max common Z with A1, then -1 mm Z
@@ -153,7 +153,7 @@ Rough plans drawn in paint:
 
 #### Part-A
 
-1. Used Part-A v0.0.3 as base
+1. Used Part-A v0.0.3 as base -> A1
 1. Changed size of A-ns3 to 2x4x30 mm
 1. Changed size of A-ns4 to 2x4x24.8 mm
 1. Created a copy of A1 -> A2
@@ -164,7 +164,7 @@ Rough plans drawn in paint:
 
 #### Part-B
 
-1. Used Part-B v0.0.3 as base
+1. Used Part-B v0.0.3 as base -> B1
 1. Moved B3 and B2-ns1 +2 mm Z
 1. Combined -> B1
 
@@ -182,14 +182,14 @@ Rough plans drawn in paint:
 
 #### Part-A
 
-1. Used Part-A v0.0.4 as base
+1. Used Part-A v0.0.4 as base -> A1
 1. Changed size of A-ns3 to 17x17x25 mm
 1. Removed temporary unnamed brace
 1. Combined -> A1
 
 #### Part-B
 
-1. Used Part-B v0.0.4 as base
+1. Used Part-B v0.0.4 as base -> B1
 1. Shrunk all parts but A-ns4 1.5 mm Y
 1. Shrunk all parts but A-ns3 1 mm X
 1. Combined -> B1
@@ -206,13 +206,13 @@ Rough plans drawn in paint:
 
 #### Part-A
 
-1. Used Part-A v0.0.5 as base
+1. Used Part-A v0.0.5 as base -> A1
 1. Changed size of A-ns2 to 40x2.2x2.2 mm
 1. Combined -> A1
 
 #### Part-B
 
-1. Used Part-B v0.0.5 as base
+1. Used Part-B v0.0.5 as base -> B1
 1. Shrunk all parts but A-ns3 0.5 mm X
 1. Added a "1" and "0" to the top
 1. Combined -> B1
@@ -235,21 +235,43 @@ Rough plans drawn in paint:
 
 #### Part-A
 
-1. Used Part-A v0.0.6 as base
+1. Used Part-A v0.0.6 as base -> A1
 1. Added bottom half again (from backup group)
-1. Added brim again (from backup group)
-1. Added a rectangle, a small snap-in clip to hold the wire coming in, 2x4x4 mm -> A-c1
-1. TODO: add a groove and slot for wire
-1. TODO: some well for exposed wires to nest/rest in, part-b gets a hammer
+1. Added a rectangle, a small snap-in clip to hold the wire coming in, 2x4x2 mm -> A-c1
+1. Added a horizontal negative space cylinder, for the wire to sit in, 1x4x1 mm -> A-c1-ns1
+1. Added a horizontal negative space cylinder, for the wire to slide into A-c1-ns1, 2x4x0.5 mm -> A-c1-ns2
+1. Aligned A-c1, A-c1-ns1, and A-c1-ns2 along X Y Z
+1. Moved A-c1-ns2 group to +1 mm Z
+1. Combined A-c1, A-c1-ns1, and A-c1-ns2 -> A-c1
+1. Aligned A1 and A-c1 along X and Y
+1. Moved A-c1 +2 mm Z
+1. Added a cylinder, the "nest" which exposed wire will sit on top of, 6x6x4 mm -> A-n
+1. Added a horizontal negative space cylinder, for exposed wire to wrap around the top of the nest, 2x8x2 mm  -> A-n-ns
+1. Aligned B-h and B-h-ns along X Y Z
+1. Combined B-h and B-h-ns -> B-h
+1. Rotated B-h +90 degrees Z
+1. Rotated B-h +20 degrees Y
+1. Added a negative half cylinder, as a temporary window to see inside action, 18x30x8 mm -> A-ns-w
+1. Aligned A-ns-W with B1 X and Y
+1. Moved A-ns-w +2 mm Z
 1. Combined -> A1
 
 #### Part-B
 
-1. Used Part-B v0.0.6 as base
+1. Used Part-B v0.0.6 as base -> B1
 1. Re-aligned notch out of place
-1. TODO: add a clip for wire
-1. TODO: add a groove and slot for wire
-1. TODO: some well for exposed wires to nest/rest in, part-b gets a hammer
+1. Changed size of B2-ns1 to 19x15x11 mm
+1. Moved B2-ns1 to +2 mm Z (NB: absolute position)
+1. Copied Part-As A-c1  -> B-c1
+1. Aligned B1 and B-c1 along X and Y
+1. Moved B-c1 +2 mm Z
+1. Added a cylinder, the "hammer" which exposed wire will sit on top of, 4x4x4 mm -> B-h
+1. Added a horizontal negative space cylinder, for exposed wire to wrap around the face of the hammer, 2x6x2 mm  -> B-h-ns
+1. Aligned B-h and B-h-ns along X Y Z
+1. Combined B-h and B-h-ns -> B-h
+1. Aligned B1 and B-h along X Y
+1. Moved B-h +2 mm Z
+1. Moved B-h -5 mm X
 1. Combined -> B1
 
 #### Review
