@@ -245,8 +245,8 @@ Rough plans drawn in paint:
 1. Combined A-c1, A-c1-ns1, and A-c1-ns2 -> A-c1
 1. Aligned A1 and A-c1 along X and Y
 1. Moved A-c1 +2 mm Z
-1. Added a cylinder, the "nest" which exposed wire will sit on top of, 6x6x4 mm -> A-n
-1. Added a horizontal negative space cylinder, for exposed wire to wrap around the top of the nest, 2x8x2 mm  -> A-n-ns
+1. Added a cylinder, the "anvil" which exposed wire will sit on top of, 6x6x4 mm -> A-n
+1. Added a horizontal negative space cylinder, for exposed wire to wrap around the top of the anvil, 2x8x2 mm  -> A-n-ns
 1. Aligned B-h and B-h-ns along X Y Z
 1. Combined B-h and B-h-ns -> B-h
 1. Rotated B-h +90 degrees Z
@@ -276,6 +276,29 @@ Rough plans drawn in paint:
 
 #### Review
 
-- ?
+- Remove similar window for Part-B as well.  
+- 2 mm nice size for Arduino wires with insulation.
+- 1 mm might be too small if stripped wires should double back into same hole as with the hammer and anvil, try Yx1x1.5.
+- Remove wire clip on Part-A.
+- Make wire clip hole larger, 2x1x1.5 mm hole for wire, 1 mm space for it to drop down though (for insulated, for stripped, current version should be a little large).
+- Move anvil towards middle and raise it up (currently blocks Part-B from moving all the way, but stops it in just the right place to make the "1" side flush with Part-A lip).
+- Make a groove for stripped wires to sit it, very small, do not want it to recede too far into the hammer or anvil.
+- It was hard to get (insulate, while it should be a stripped one) wire though both hammer and anvil holes, window on side in Part-A made it much easier. Part-Bs hammer was possible without special window, using a pick or backside of small knife and a pair of pliers.
+
+---
+
+### Version 0.0.8
+
+#### Part-A
+
+1. Used Part-A v0.0.7 as base -> A1
+
+#### Part-B
+
+1. Used Part-B v0.0.7 as base -> B1
+
+#### Review
+
+- ...
 
 ---
