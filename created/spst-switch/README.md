@@ -266,7 +266,7 @@ Rough plans drawn in paint:
 1. Aligned B1 and B-c1 along X and Y
 1. Moved B-c1 +2 mm Z
 1. Added a cylinder, the "hammer" which exposed wire will sit on top of, 4x4x4 mm -> B-h
-1. Added a horizontal negative space cylinder, for exposed wire to wrap around the face of the hammer, 2x6x2 mm  -> B-h-ns
+1. Added a horizontal negative space cylinder, for exposed wire to wrap around the face of the hammer, 2x6x2 mm -> B-h-ns
 1. Aligned B-h and B-h-ns along X Y Z
 1. Combined B-h and B-h-ns -> B-h
 1. Aligned B1 and B-h along X Y
@@ -284,6 +284,8 @@ Rough plans drawn in paint:
 - Move anvil towards middle and raise it up (currently blocks Part-B from moving all the way, but stops it in just the right place to make the "1" side flush with Part-A lip).
 - Make a groove for stripped wires to sit it, very small, do not want it to recede too far into the hammer or anvil.
 - It was hard to get (insulate, while it should be a stripped one) wire though both hammer and anvil holes, window on side in Part-A made it much easier. Part-Bs hammer was possible without special window, using a pick or backside of small knife and a pair of pliers.
+- Rotate hammer and nest +45 degrees Z (before tilting nest).
+- Hammer and nest should be about 8 mm long each so they can touch.
 
 ---
 
@@ -292,10 +294,30 @@ Rough plans drawn in paint:
 #### Part-A
 
 1. Used Part-A v0.0.7 as base -> A1
+1. Deleted A-c1
+1. Deleted A-n
+1. Added a cylinder, the "anvil" which exposed wire will sit on top of, 6x6x8 mm -> A-n
+1. Added a horizontal negative space cylinder, for exposed wire to wrap around the top of the anvil, 2x8x2 mm -> A-n-ns1
+1. Added two negative space cylinder, to help align the wires coming out of A-n-ns1, 1x1x2 -> A-n-ns2, A-n-ns3
+1. Aligned A-n, A-n-ns1, A-n-ns2, and A-n-ns3 around X and Y, top common Z
+1. Moved A-n-ns2 -2.75 mm X
+1. Moved A-n-ns3 +2.75 mm X
+1. Combined A-n, A-n-ns1, A-n-ns2, and A-n-ns3 -> A-n
+1. Aligned A1 and A-n X Y
+1. Moved A-n +1 mm Z
+1. Rotated A-n -45 degrees Z
+1. Rotated A-n +10 degrees Y
+1. Combined -> A1
 
 #### Part-B
 
 1. Used Part-B v0.0.7 as base -> B1
+1. Moved B-c1 +4 mm X
+1. Deleted B-h
+1. Copied A-n -> B-h
+1. Moved B-h -4 mm X
+1. Rotated B-h -45 degrees Z
+1. Combined -> B1
 
 #### Review
 
