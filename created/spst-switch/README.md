@@ -321,6 +321,25 @@ Rough plans drawn in paint:
 
 #### Review
 
+- Hammer an anvil mates fine, but in the "off" position, the hammer is too close to the anvil, has a high risk of not breaking the circuit. 
+  - Move hammer further left on Part-B, rotate -45 degrees more so it tunnel runs along Y. 
+  - Sink and move anvil left slightly, angle likely has to change as well.
+- Did not fix wire holder in Part-B.
+
+---
+
+### Version 0.0.9
+
+#### Part-A
+
+1. Used Part-A v0.0.8 as base -> A1
+
+#### Part-B
+
+1. Used Part-B v0.0.8 as base -> B1
+
+#### Review
+
 - ...
 
 ---
