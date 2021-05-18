@@ -333,10 +333,16 @@ Rough plans drawn in paint:
 #### Part-A
 
 1. Used Part-A v0.0.8 as base -> A1
+1. Rotated A-n +2 degrees Y 
+1. Moved A-n -1.7 mm X 
+1. Moved A-n -0.7 mm Z 
+1. Combined -> A1
 
 #### Part-B
 
 1. Used Part-B v0.0.8 as base -> B1
+1. Moved B-h -2 mm X (-6 mm from middle X)
+1. Combined -> B1
 
 #### Review
 
