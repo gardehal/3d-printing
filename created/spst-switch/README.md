@@ -348,10 +348,27 @@ Rough plans drawn in paint:
 
 - Success
   - The hammer mates with the anvil perfectly.
-  - Running stripped wires though and over the hammer and anvil is capable of completing a circuit and light up a LED bulb ((video)[./002-spst-switch-0.0.9-test.mp4]).
+  - Running stripped wires though and over the hammer and anvil is capable of completing a circuit and light up a LED bulb.
+  - (Video of test)[./002-spst-switch-0.0.9-test.mp4] and (circuit diagram from test)[./003-spst-switch-0.0.9-test-circuit-diagram.png].
 - The final step(s):
   - Remove negative space used to create windows in Part-A.
   - Fix the wire clip in Part-B to make wire management easier.
   - Write a small guide or illustrate how to add wires.
+
+---
+
+### Version 0.0.9
+
+#### Part-A
+
+1. Used Part-A v0.0.8 as base -> A1
+
+#### Part-B
+
+1. Used Part-B v0.0.8 as base -> B1
+
+#### Review
+
+- ...
 
 ---
