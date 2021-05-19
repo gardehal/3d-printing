@@ -354,6 +354,9 @@ Rough plans drawn in paint:
   - Remove negative space used to create windows in Part-A.
   - Fix the wire clip in Part-B to make wire management easier.
   - Write a small guide or illustrate how to add wires.
+  - Add more holes for wires to enter though.
+  - Limit for off position (on position already limited by hammer/anvil).
+  - Possibly reduce size, height and width should be easiest.
 
 ---
 
@@ -362,10 +365,14 @@ Rough plans drawn in paint:
 #### Part-A
 
 1. Used Part-A v0.0.8 as base -> A1
+- TODO added more holes
+- TODO removed window
+- TODO added lip
 
 #### Part-B
 
 1. Used Part-B v0.0.8 as base -> B1
+- TODO fix clip
 
 #### Review
 
