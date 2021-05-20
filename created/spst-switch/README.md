@@ -365,14 +365,38 @@ Rough plans drawn in paint:
 #### Part-A
 
 1. Used Part-A v0.0.8 as base -> A1
-- TODO added more holes
-- TODO removed window
-- TODO added lip
+1. Copied A-ns2 four times, additional holes for wires -> A-w2, A-w3, A-w4, A-w5
+1. Rotated A-w2, A-w3 +90 degrees Y
+1. Rotated A-w4, A-w5 +90 degrees Z
+1. Aligned A-w2, A-w3, A-w4, A-w5 with the A1 X and Y
+1. Aligned A-w2, A-w3 with A1 Z
+1. Set A-w4, A-w5 down to +2 mm Z
+1. Moved A-w2, A-w4 -11 mm X
+1. Moved A-w3, A-w5 +11 mm X
+1. Removed temporary window added in 0.0.7, A-ns-w
+1. Restored lip from version 0.0.1, A2
+1. Added a cube, for limiting the swing of Part-B, 2x20x5 mm -> A-r1
+1. Added a cube negative space, remove unnecessary space from A-r1, 2x14x5 mm -> A-r1-ns
+1. Aligned A-r1-ns with A-r1 X, Y, Z
+1. Combined A-r1-ns and A-r1 -> A-r1
+1. Aligned A-r1 with A1 X and Y
+1. Moved A-r1 -5.5 mm X
+1. Combined -> A1
 
 #### Part-B
 
 1. Used Part-B v0.0.8 as base -> B1
-- TODO fix clip
+1. Deleted B-c1
+1. Added a rectangle, a small snap-in clip to hold the wire coming in, 2x4x2 mm -> B-c1
+1. Added a horizontal negative space cylinder, for the wire to sit in, 1x2x2 mm -> B-c1-ns1
+1. Added a horizontal negative space cylinder, for the wire to slide into B-c1-ns1, 2x1x1 mm -> B-c1-ns2
+1. Aligned B-c1, B-c1-ns1, B-c1-ns2 middle X Y, bottom Z
+1. Moved B-c1-ns2 +1.8 mm Z
+1. Combined -> B-c1
+1. Aligned B1 and B-c1 around middle X Y
+1. Moved B-c1 +2 mm Z
+1. Moved B-c1 +4 mm C
+1. Combined -> B1
 
 #### Review
 
