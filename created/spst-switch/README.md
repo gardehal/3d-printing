@@ -360,11 +360,11 @@ Rough plans drawn in paint:
 
 ---
 
-### Version 0.0.9
+### Version 0.0.10
 
 #### Part-A
 
-1. Used Part-A v0.0.8 as base -> A1
+1. Used Part-A v0.0.9 as base -> A1
 1. Copied A-ns2 four times, additional holes for wires -> A-w2, A-w3, A-w4, A-w5
 1. Rotated A-w2, A-w3 +90 degrees Y
 1. Rotated A-w4, A-w5 +90 degrees Z
@@ -385,7 +385,7 @@ Rough plans drawn in paint:
 
 #### Part-B
 
-1. Used Part-B v0.0.8 as base -> B1
+1. Used Part-B v0.0.9 as base -> B1
 1. Deleted B-c1
 1. Added a rectangle, a small snap-in clip to hold the wire coming in, 2x4x2 mm -> B-c1
 1. Added a horizontal negative space cylinder, for the wire to sit in, 1x2x2 mm -> B-c1-ns1
