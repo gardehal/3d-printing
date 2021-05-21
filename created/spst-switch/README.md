@@ -400,6 +400,8 @@ Rough plans drawn in paint:
 
 #### Review
 
-- ...
+- A2 makes it very hard to put Part-B into place, but it is possible. Getting it out might be harder.
+- A-r1 stops Part-B in off-position a little high but it's barely noticeable. 
+- Still struggling with getting insulated wire into B-c1.
 
 ---
