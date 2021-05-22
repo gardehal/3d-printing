@@ -403,5 +403,9 @@ Rough plans drawn in paint:
 - A2 makes it very hard to put Part-B into place, but it is possible. Getting it out might be harder.
 - A-r1 stops Part-B in off-position a little high but it's barely noticeable. 
 - Still struggling with getting insulated wire into B-c1.
+- 0.0.10 will likely be last version.
+- This form of documenting changes is extremely tedious, but could be useful for project that require extreme details on build versions.
+  - Current modeling program, TinkerCad, does not support exporting files with subparts (combines all parts to single object without history), other programs might, in which case, save each version as file, or let GitHubs version control deal with it.
+  - In future projects, significantly reduce change-documentation, but keep reviews.
 
 ---

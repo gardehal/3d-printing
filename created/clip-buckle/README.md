@@ -19,3 +19,10 @@ There is a 9 mm gap from inner wall to rail face.
 Front extrusions are max 16, min 12.5 long front side.
 Back extrusions are max 6, min 3 long from back side.
 Indent is max 21, min 12 long
+
+
+#### TODO
+
+- Test scanner software (from images)
+  - Test 3DF Zephyr (Free), inaccuracy issues with small models
+  - Test VisualSFM + Meshlab

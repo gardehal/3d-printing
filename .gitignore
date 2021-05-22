@@ -4,6 +4,9 @@
 *.gif
 **/downloaded
 **/gcode
+**/ignore
+**/archive
+**/test-items
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
