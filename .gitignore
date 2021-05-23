@@ -7,6 +7,7 @@
 **/ignore
 **/archive
 **/test-items
+**/scan*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

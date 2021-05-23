@@ -24,5 +24,11 @@ Indent is max 21, min 12 long
 #### TODO
 
 - Test scanner software (from images)
-  - Test 3DF Zephyr (Free), inaccuracy issues with small models
+  - Test 3DF Zephyr (Free)
+    - Worked for a pretty small object, but only to get general shape, surface was very rough and the entire part had to be remade, scan result wasn't even that much help.
+    - Max cap. at 50 images for free version, not enough for small parts
   - Test VisualSFM + Meshlab
+    - Unlimited images
+    - Live visualized reconstruction
+    - Minimal and older UI
+    - 
