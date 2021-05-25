@@ -34,3 +34,4 @@ Indent is max 21, min 12 long
     - Struggles sometimes to generate ref. points, generate multiple sparse and dense until a decent result.
     - Struggles similarly to 3DF Zephyr (Free)
 - Free 3D scanners from images always (2 programs above) recreated 3D parts with too may inaccuracies and missing details to the point where items has to be recreated from scratch. Might as well just take a couple of images for reference and skip the lengthy generation process. Does not seem feasible for 3D printing.
+- TinkerCad allows import of .svg, on a high contrast background (brown clip on white background with flash) came out as a 3D object raised somewhat (but ultimately wrong height), which could easily be combined with images of other angles to make a very good 3D object. Takes a while, 1080x1920p camera, set size to 1% when importing.
