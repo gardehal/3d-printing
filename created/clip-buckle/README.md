@@ -44,10 +44,18 @@ Indent is max 21, min 12 long
   1. Convert to SVG (based on [this](https://designbundles.net/design-school/how-to-convert-a-jpeg-to-svg-in-inkscape) guide)
     1. Select file. Resize if necessary.
     1. Select image and click Path -> Trace Bitmap
-    1. Click run? and wait for tracing to complete
-    1. Once tracing is complete, click and drag the SVG? away from the image.
+    1. Select single, click "Apply" and wait for tracing to complete
+    1. Once tracing is complete, click and drag the image away from the SVG.
     1. Delete or hide original image.
-    1. Click image metadata?, resize, fit to object?
+    1. Optional: Cut out the parts that are not important. This will same some time importing to TinkerCad.
+      1. Select "Create rectangles or squares" in the menu on the left side of document (hotkey R).
+      1. Make a rectangle over the content you want to keep (use white fill in rectangle for best result).
+      1. Select the pointer (hotkey S).
+      1. Select SVG and rectangle.
+      1. Click Object -> Mask -> Set
+      1. Set margin to at least 100 in Document Properties mentioned in next step.
+    1. Click File -> Document Properties
+    1. Under "Custom size" section, expand "Resize page to content...", select the SVG, and press the "Resize page to drawing or selection" button (select SVG and press hotkey Ctrl + Shift + R).
     1. Save as "Optimized SVG"
   1. Import SVG to TinkerCad
     1. Click "Import" top right.
@@ -64,3 +72,14 @@ Indent is max 21, min 12 long
       1. Make mold hole.
       1. Place a shape inside the mold parameters, this will be the cast.
       1. Combine cast and mold. Now you have a copy of your SVG object which takes slightly less time to load in and manipulate.
+  1. Combine the different aspects. Not a definitive guide, but worked for clip-buckle
+      1. Take image from top of buckle, go though the process above.
+      1. Adjust image so it was symmetrical (missed a little on perspective).
+      1. Set width, length, height to 33x44x12.
+      1. Take image of side of buckle, go though the process above.
+      1. Rotate +90 degrees around Y.
+      1. Set width, length, height to 33x44x12.
+      1. Make "mold" of top view because it had less volume and more details to remove. Not sure if it matter which perceptive becomes the mold.
+      1. Combine mold of top view and object of side view.
+      1. Use measurements and objects created before to hollow insides and make rails.
+      1. Export as normal.
