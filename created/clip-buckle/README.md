@@ -20,8 +20,7 @@ Front extrusions are max 16, min 12.5 long front side.
 Back extrusions are max 6, min 3 long from back side.
 Indent is max 21, min 12 long
 
-
-#### TODO
+#### Scanning software
 
 - Test scanner software (from images)
   - Test 3DF Zephyr (Free)
@@ -40,10 +39,12 @@ Indent is max 21, min 12 long
     1. Prepare the object and the background. You want high contrast without shadows so the object pops right out in the SVG.
     1. Capture the object from as many angles as you need, flat on, with as few distortions as possible. Top, front and one side is enough for simple symmetrical objects.
       - Images will be flat (maybe doesn't need to be but I don't know enough about SVG and Inkscape to filter channels with height based on light or colour), so it might be good to take images from different angles and stitch them together in TinkerCad.
+      - Flash is optional but probably helps.
   1. Import the images to [Inkscape](https://inkscape.org).
   1. Convert to SVG (based on [this](https://designbundles.net/design-school/how-to-convert-a-jpeg-to-svg-in-inkscape) guide)
     1. Select file. Resize if necessary.
     1. Select image and click Path -> Trace Bitmap
+    1. Select single scan with "Brightness cutoff".
     1. Select single, click "Apply" and wait for tracing to complete
     1. Once tracing is complete, click and drag the image away from the SVG.
     1. Delete or hide original image.
@@ -60,7 +61,7 @@ Indent is max 21, min 12 long
   1. Import SVG to TinkerCad
     1. Click "Import" top right.
     1. Select the SVG on your computer.
-    1. Set size 10%.
+    1. Set size to fit within TinkerCads parameters, e.g. 10%.
     1. Click "Import".
   1. Adjust the imported object
     1. Remove shadows or unrelated mass.
@@ -83,3 +84,9 @@ Indent is max 21, min 12 long
       1. Combine mold of top view and object of side view.
       1. Use measurements and objects created before to hollow insides and make rails.
       1. Export as normal.
+
+      
+#### Review 
+
+Using image + SVG + TinkerCad was tricky to find out, but created a functional clip buckle receiver. There are some small adjustments, like how the catch-mechanism tapers more inward for a more secure grip. The part that attaches to a loop of fabric or belt was too weak and snapped off with little force as well, this needs more support. This version did not include the bar which the belt loops around either.
+All in all it functions exactly the same way as the original, with less structural integrity. I also found a less manual way of copying physical objects though SVGs in TinkerCad. Project was a success.
