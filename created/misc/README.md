@@ -1,9 +1,10 @@
 # Miscellaneous items
 
+A collection fo smaller prints that are too small for their own main folders.
+
 ## Items list
 
 - chair-railing-mount - a small system for hanging small items on a specific railing
-
 
 ## TinkerCad SVG copy
 
@@ -11,13 +12,14 @@
     1. Prepare the object and the background. You want high contrast without shadows so the object pops right out in the SVG.
     1. Capture the object from as many angles as you need, flat on, with as few distortions as possible. Top, front and one side is enough for simple symmetrical objects.
       - Images will be flat (maybe doesn't need to be but I don't know enough about SVG and Inkscape to filter channels with height based on light or colour), so it might be good to take images from different angles and stitch them together in TinkerCad.
-      - Flash is optional but probably helps.
+      - Flash is optional but helps for contrasts.
+      - Use a darker background or use flash to cast shadows.
   1. Import the images to [Inkscape](https://inkscape.org).
   1. Convert to SVG (based on [this](https://designbundles.net/design-school/how-to-convert-a-jpeg-to-svg-in-inkscape) guide)
-    1. Select file. Resize if necessary.
+    1. Import and select image. Resize if necessary.
     1. Select image and click Path -> Trace Bitmap
     1. Select single scan with "Brightness cutoff".
-    1. Select single, click "Apply" and wait for tracing to complete
+    1. Select single scan, click "Apply" and wait for tracing to complete
     1. Once tracing is complete, click and drag the image away from the SVG.
     1. Delete or hide original image.
     1. Optional: Cut out the parts that are not important. This will same some time importing to TinkerCad.
