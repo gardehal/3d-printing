@@ -5,16 +5,28 @@ A collection of 3D printing projects.
 ## Programs and tools
 
 - Designing
-  - TinkerCad
+  - [TinkerCad](tinkercad.com/) for creating the 3D models to print.
+  - [Autodesk Fusion 360](https://www.autodesk.com/products/fusion-360/free-trial) for creating the 3D models to print.
+  - Calipers (preferably digital) for measuring physical object to copy or measure printing errors. [Useful printed part](https://hackaday.com/2018/09/09/3d-printed-radius-gauge-just-add-calipers-and-a-wee-bit-of-math/) for finding the radius of round objects.
 
 - Printing
-  - Prusa MK3..
+  - [Prusa Slicer](https://www.prusa3d.com/prusaslicer/) for translating 3D object to GCODE which the printer uses for printing.
+  - [Prusa I3 MK3S+](https://www.prusa3d.com/original-prusa-i3-mk3/) for printing.
+  - Knife for whittling down flattened first few layers of rounded object, brims, remove supports, and trim off small globs. Also useful to shave off test-strip which Prusa puts down to clear the nossle before each print.
+  - Needle-nosed plyers for grabbing small misprint parts and supports in tight spots.
+  - Flashlight to better inspect parts of print sometimes blocked by light during print.
 
 ## General resources
 
+- [Thingiverse](thingiverse.com/) for community made 3D models.
+- [Prusaprinters](https://www.prusaprinters.org) for community made 3D models. 
+- [Sketchfab](https://sketchfab.com) for community made 3D models. 
+- [Stlfinder](https://www.stlfinder.com) to find community made 3D models.
+- [3D printing handbook](https://help.prusa3d.com/en/article/3d-printing-handbooks_125045/) that came with printer, contains some useful information.
+
 ## General design knowledge
 
-1. Copying physical objects
+1. Copying physical objects, see [TinkerCad SVG copy method](#)
 1. Find relative stretch needed to make perfect horizontally printed holes
 1. Design pitfalls
 1. Pitfalls with screw threads and "impossible walls" 
@@ -33,6 +45,15 @@ A collection of 3D printing projects.
 1. Layer adhesion 
 
 ## Strengths and weaknesses
+
+- Strengths
+  - Print-in-place
+  - quick prototyping
+  - Lots of material ranging from soft and bendy to firm and snappy
+- Weaknesses
+  - Slower mass production
+  - Mostly plastics and resin based material
+  - Weaker than structure due to layering
 
 ## TinkerCad SVG copy method
 
