@@ -2,6 +2,10 @@
 
 A collection of 3D printing projects.
 
+## Dictionary
+
+- Globbing, blobbing - when print results in large spheres of filament where it shouldn't be, common when attempting to print in thin air.
+
 ## Programs and tools
 
 - Designing
@@ -13,6 +17,7 @@ A collection of 3D printing projects.
   - [Prusa Slicer](https://www.prusa3d.com/prusaslicer/) for translating 3D object to GCODE which the printer uses for printing.
   - [Prusa I3 MK3S+](https://www.prusa3d.com/original-prusa-i3-mk3/) for printing.
   - Knife for whittling down flattened first few layers of rounded object, brims, remove supports, and trim off small globs. Also useful to shave off test-strip which Prusa puts down to clear the nossle before each print.
+  - A small flat head screw driver for scraping off material without risking damaging it, poking holes where needed.
   - Needle-nosed plyers for grabbing small misprint parts and supports in tight spots.
   - Flashlight to better inspect parts of print sometimes blocked by light during print.
 
@@ -23,26 +28,42 @@ A collection of 3D printing projects.
 - [Sketchfab](https://sketchfab.com) for community made 3D models. 
 - [Stlfinder](https://www.stlfinder.com) to find community made 3D models.
 - [3D printing handbook](https://help.prusa3d.com/en/article/3d-printing-handbooks_125045/) that came with printer, contains some useful information.
+- [Simplify3d](https://www.simplify3d.com/support/print-quality-troubleshooting/) common problems.
 
 ## General design knowledge
 
-1. Copying physical objects, see [TinkerCad SVG copy method](#)
-1. Find relative stretch needed to make perfect horizontally printed holes
-1. Design pitfalls
-1. Pitfalls with screw threads and "impossible walls" 
-1. Overhangs 
-1. Printing direction
-1. Infill
-1. Filament to use
-1. Combining parts glue vs. mechanical locking mechanisms 
+- Copying physical objects
+  - [TinkerCad SVG copy method](#TinkerCad-SVG-copy-method), using photos of objects to make silhouettes which can be combined to make a 3D object.
+  - [3DF Zephyr Free](https://www.3dflow.net/3df-zephyr-free/) or similar programs that combines images to make 3D representation of what's on the images (works best for large items).
+- Design pitfalls
+  - Printing holes. When printing holes that run parallel to the X or Y axis, some slicers may add some extra material to the roof of the hole or when bridging, or simply may miscalculate and create ovals instead of perfect circles.
+    - Consider if you need a precise fit, if not, you could always increase the hole size.
+    - Edit the holes in your design to be ovals (increase the height).
+  - Impossible walls. When designing, sometimes walls or borders turn out to be so thin the slicer realise the printer is not capable of creating walls that think. Example: Design of a threaded screw that has a wall 0.1 mm thick, but the printer nozzles thinnest allowed setting is 0.15 mm. The result is that the slicer will ignore this wall. May depend on slicer and settings, some slicers can adjust nozzles of printers.
+    - Keep in mind the thickness of walls and objects. Some tricky shapes includes threads on a screw, combination of multiple "hole" objects interacting when combined at once, calculations which creates shapes. 
+    - Check your slicers settings, turn on warnings when impossible walls are detected.
+  - Overhangs. Printing shapes with overhang above a certain vector leads to material not being supported and blobbing occurs.
+    - Never print flat roofs without support.
+    - Ensure the transitions from vertical to horizontal overhands are gradual and supported, the more corners the better.
+    - Keep in mind "Printing holes" mentioned earlier in this list.
+  - Supports. Supports are used when printing shapes that defy gravity. Consider printing an H oriented as it is in text. If the gap between the vertical lines are too large, the overhang over the horizontal line will sag or loosen the print from the plate, resulting in a failed print. Adding support to the horizontal line will allow for an easier print.
+    - Supports can be added when designing, in you design software. Some downloadable designs will include this and sometimes put it in the description. 
+    - Making supports in the design should be avoided unless absolutely necessary.
+    - Some slicers have functionality to add supports, like PrusaSlicer allows users to paint areas to support, demonstrated [here](https://help.prusa3d.com/en/article/paint-on-supports_168584/).
+    - Note that adding supports requires material and will increase print times.
+    - Support should come of very easily, but removing them can damage fragile parts. Using tools such as knives may also cause damage to the print.
+- Printing direction
+- Infill
+- Filament to use
+- Combining parts glue vs. mechanical locking mechanisms 
 
 ## General printing knowledge
 
-1. First layer issues
-1. Warping
-1. Supports
-1. Brim
-1. Layer adhesion 
+- First layer issues
+- Warping
+- Supports
+- Brim
+- Layer adhesion 
 
 ## Strengths and weaknesses
 
