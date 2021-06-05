@@ -60,6 +60,7 @@ A collection of 3D printing projects.
   - General rule of thumb is that a print will be the weakest where layers interact with indents or cutouts.
   - Consider printing the letter L, orientated as written. A printer that prints from the bottom up will create an L with a string horizontal like but weak vertical line, even if they are identical in the design. This is because the layers will run parallel the horizontal line. Attempting to snap the horizontal line will be like attempting to snap a bundle of sticks. The vertical line is also layered the same way, and breaking it is like snapping a coin roll in half.
   - Whenever strength is needed for a part, print it in such a way that the bending force is applied perpendicular on the print lines.
+  - Printing direction may also affect parts fitting. Although two parts fit together in theory, and even when printed one way, they may not fit if one or both are printed another way.
 - Infill. The filament added inside the shell.
   - Infill percentage is often used to determine how much of the internal volume will be filled, ranging from 0% to 100%.
   - There are different patterns available for infill, some are stronger, some are faster, and some of more economical.
@@ -68,16 +69,23 @@ A collection of 3D printing projects.
   - Some filaments are notorious for printing errors and difficulties printing, eg. nylon, some PETG types.
   - Pick a filament that is best suited for your usage. PLA is best for small indoor items like trinkets and semi-flexible parts, better for the environment. PETG is stronger and more rigid, resist weathering better, easier to sandpaper down.
   - There are various filaments that mocks the feeling and appearance of non-filament. An example is wood filament, which contains some thermal resin or plastic like PLA and sawdust.
-- Glue vs. locking mechanisms vs. print-in-place. Projects sometimes call for multiple parts because they are too complex to print as one, or is intended to move, lock, or transform.
-  - Glue - rough surfaces, sanded down, glue plus guiding pegs or tracks
-  - Locking mechanisms - screws, pegs, tapering/friction, clamps
-  - Print-in-place - smaller objects, fewer prints, harder to repair, overall quicker
+- Combining parts. Projects sometimes call for multiple parts because they are too complex to print as one, or is intended to move, lock, or transform.
+  - Locking mechanisms, some cases and uses:
+    1. screws, threaded nuts and bolts. Useful for moving varying degrees of pressure. Also lots of options, as long as the threads are not build into the design, separate nuts and bolts can be printed, or metal ones can be used for a fixing less likely to break than your print.
+    1. pegs, anything from simple rods, spring loaded (akin to a LEGO "Technic Peg with Friction") to complex keys. Useful for contraptions with some tension to keep them in place, or as temporary fasteners that is intended to be set up and taken down by hand. Pegs with a spring loaded latch can be especially useful as they secure in place without falling out, but can be removed by hand.
+    1. tapering/friction, 
+    1. clamps/snap-in,
+  - Print-in-place, some cases and uses:
+    1. smaller objects, fewer prints, harder to repair, overall quicker
+  - Glue, works best for:
+    1. rough surfaces, for example sanded down or perpendicular to print lines
+    1. small parts that cannot use any method mentioned above (or in combination)
 
 ## General printing knowledge
 
 - First layer issues
 - Warping
-- Supports
+- Tall prints oscillating
 - Brim
 - Layer adhesion 
 
