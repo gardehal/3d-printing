@@ -4,7 +4,9 @@ A collection of 3D printing projects.
 
 ## Dictionary
 
-- Globbing, blobbing - when print results in large spheres of filament where it shouldn't be, common when attempting to print in thin air.
+- globbing, blobbing - when print results in large spheres of filament where it shouldn't be, common when attempting to print in thin air.
+- shell - the outer perimeter of an enclosed object.
+- print in place - the act of printing moving parts locked inside a bearing or hinge of another part. These parts are designed to not come apart unless the bearing or hinge is removed or destroyed.
 
 ## Programs and tools
 
@@ -52,10 +54,24 @@ A collection of 3D printing projects.
     - Some slicers have functionality to add supports, like PrusaSlicer allows users to paint areas to support, demonstrated [here](https://help.prusa3d.com/en/article/paint-on-supports_168584/).
     - Note that adding supports requires material and will increase print times.
     - Support should come of very easily, but removing them can damage fragile parts. Using tools such as knives may also cause damage to the print.
-- Printing direction
-- Infill
-- Filament to use
-- Combining parts glue vs. mechanical locking mechanisms 
+    - Some advanced prints don't need support, while seemingly simple prints needs lots. Spotting what needs support comes with experience, or tools like PrusaSlicer can detect areas at risk (see demonstration of PrusaSlicers paint on support tool).
+    - In the end, it's better to add 30 minutes of support making to an 8 hour print than it is for the print to fail 7 hours in and having to start over.
+- Printing direction. The orientation fo your model in the slicer will determine the printing direction. 
+  - General rule of thumb is that a print will be the weakest where layers interact with indents or cutouts.
+  - Consider printing the letter L, orientated as written. A printer that prints from the bottom up will create an L with a string horizontal like but weak vertical line, even if they are identical in the design. This is because the layers will run parallel the horizontal line. Attempting to snap the horizontal line will be like attempting to snap a bundle of sticks. The vertical line is also layered the same way, and breaking it is like snapping a coin roll in half.
+  - Whenever strength is needed for a part, print it in such a way that the bending force is applied perpendicular on the print lines.
+- Infill. The filament added inside the shell.
+  - Infill percentage is often used to determine how much of the internal volume will be filled, ranging from 0% to 100%.
+  - There are different patterns available for infill, some are stronger, some are faster, and some of more economical.
+- Picking filament. Filaments made from different material have different properties.
+  - Filament of different types often require different temperatures.
+  - Some filaments are notorious for printing errors and difficulties printing, eg. nylon, some PETG types.
+  - Pick a filament that is best suited for your usage. PLA is best for small indoor items like trinkets and semi-flexible parts, better for the environment. PETG is stronger and more rigid, resist weathering better, easier to sandpaper down.
+  - There are various filaments that mocks the feeling and appearance of non-filament. An example is wood filament, which contains some thermal resin or plastic like PLA and sawdust.
+- Glue vs. locking mechanisms vs. print-in-place. Projects sometimes call for multiple parts because they are too complex to print as one, or is intended to move, lock, or transform.
+  - Glue - rough surfaces, sanded down, glue plus guiding pegs or tracks
+  - Locking mechanisms - screws, pegs, tapering/friction, clamps
+  - Print-in-place - smaller objects, fewer prints, harder to repair, overall quicker
 
 ## General printing knowledge
 
