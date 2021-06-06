@@ -72,14 +72,18 @@ A collection of 3D printing projects.
 - Combining parts. Projects sometimes call for multiple parts because they are too complex to print as one, or is intended to move, lock, or transform.
   - Locking mechanisms, some cases and uses:
     1. screws, threaded nuts and bolts. Useful for moving varying degrees of pressure. Also lots of options, as long as the threads are not build into the design, separate nuts and bolts can be printed, or metal ones can be used for a fixing less likely to break than your print.
-    1. pegs, anything from simple rods, spring loaded (akin to a LEGO "Technic Peg with Friction") to complex keys. Useful for contraptions with some tension to keep them in place, or as temporary fasteners that is intended to be set up and taken down by hand. Pegs with a spring loaded latch can be especially useful as they secure in place without falling out, but can be removed by hand.
-    1. tapering/friction, 
-    1. clamps/snap-in,
+    1. pegs, anything from simple rods, spring loaded (akin to a LEGO "Technic Peg with Friction" or the pin used in chair-rail-mount) to complex keys. Useful for contraptions with some tension to keep them in place, or as temporary fasteners that is intended to be set up and taken down by hand. Pegs with a spring loaded latch can be especially useful as they secure in place without falling out, but can be removed by hand.
+    1. tapering/friction, such as telescoping. Mostly used for projects that call for some growing and retracting, like a old school extendable telescope. Due to weakness of plastics and resins.
+    1. clamps/snap-in, such as snap buckles or other hooks with slots. Can be used for prints that require parts to snap in place in a specific way, can be made such that it's very hard to undo without damaging the parts, or an opening around the hook so it may be undone.
   - Print-in-place, some cases and uses:
-    1. smaller objects, fewer prints, harder to repair, overall quicker
+    1. smaller objects, fewer prints, harder to repair, overall quicker.
   - Glue, works best for:
-    1. rough surfaces, for example sanded down or perpendicular to print lines
-    1. small parts that cannot use any method mentioned above (or in combination)
+    1. rough surfaces, for example sanded down or perpendicular to print lines.
+    1. small parts that cannot use any method mentioned above (or in combination).
+  - Other temporary, non-printed, easily reversible methods:
+    1. magnets, nice for parts that conveniently open and close with some elegance. Mind the damage it may do to data storage or computers. 
+    1. string, for a more esoteric or mystic theme, also common and cheap.
+    1. velcro, can be used for parts that doesn't need to be exact, but rather simple  and quick.
 
 ## General printing knowledge
 
