@@ -56,6 +56,7 @@ A collection of 3D printing projects.
     - Support should come of very easily, but removing them can damage fragile parts. Using tools such as knives may also cause damage to the print.
     - Some advanced prints don't need support, while seemingly simple prints needs lots. Spotting what needs support comes with experience, or tools like PrusaSlicer can detect areas at risk (see demonstration of PrusaSlicers paint on support tool).
     - In the end, it's better to add 30 minutes of support making to an 8 hour print than it is for the print to fail 7 hours in and having to start over.
+    - Note that infill can stick really well to the print and be very difficult to remove, or that you may damage the print in the process of removing supports.
 - Printing direction. The orientation fo your model in the slicer will determine the printing direction. 
   - General rule of thumb is that a print will be the weakest where layers interact with indents or cutouts.
   - Consider printing the letter L, orientated as written. A printer that prints from the bottom up will create an L with a string horizontal like but weak vertical line, even if they are identical in the design. This is because the layers will run parallel the horizontal line. Attempting to snap the horizontal line will be like attempting to snap a bundle of sticks. The vertical line is also layered the same way, and breaking it is like snapping a coin roll in half.
@@ -87,9 +88,18 @@ A collection of 3D printing projects.
 
 ## General printing knowledge
 
-- First layer issues
-- Warping
-- Tall prints oscillating
+- First layer issues, the first layer tends to have various issues, which can depend on printer settings and sloppy design. For my Prusa MK3, these issues include:
+  - Nozzle being too far away from bed, causing filament to come loose and blob.
+  - Nozzle being too close to the bed, extruding too much filament and causing excess filament to create blobs 
+  - Round objects being deformed with a flat area towards the bed.
+  - Difficulty removing print due to first layer being stuck.
+  - Best fixes is to do test prints with different Z offset-settings, checking all prints before 5th layer, issues with first few layers are usually obvious by then.
+- Warping, causing prints to warp, adding curves to parts that are expected to be straight.
+  - Unknown why it happens, possible due to heating differences 
+- Printers and prints oscillating, if the printer bed moves, can cause tall prints to move or come loose which ruins the print. Printers with large amount of moving parts can also cause the entire printer to move.
+  - For printers with movable beds, use a brim to better grip the bed.
+  - For printers with movable beds and where brims are nor working, orientate the print some other way. With supports it's possible to print long shapes diagonally.
+  - Printers with large moving parts should be placed in some material that coushins and absorbs the movement. Building or furniture foam under a heavy, stiff base like a slab of concrete or rock should work. See [this video](https://youtu.be/y08v6PY_7ak) for more details.
 - Brim
 - Layer adhesion 
 
