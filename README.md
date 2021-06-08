@@ -99,9 +99,12 @@ A collection of 3D printing projects.
 - Printers and prints oscillating, if the printer bed moves, can cause tall prints to move or come loose which ruins the print. Printers with large amount of moving parts can also cause the entire printer to move.
   - For printers with movable beds, use a brim to better grip the bed.
   - For printers with movable beds and where brims are nor working, orientate the print some other way. With supports it's possible to print long shapes diagonally.
-  - Printers with large moving parts should be placed in some material that coushins and absorbs the movement. Building or furniture foam under a heavy, stiff base like a slab of concrete or rock should work. See [this video](https://youtu.be/y08v6PY_7ak) for more details.
-- Brim
-- Layer adhesion 
+  - Printers with large moving parts should be placed in some material that cushion and absorbs the movement. Building or furniture foam under a heavy, stiff base like a slab of concrete or rock should work. See [this video](https://youtu.be/y08v6PY_7ak) for more details.
+- Brim, first layer added material around the base of the print.
+  - Brims can be useful to secure small items to the bed and prevent blobbing.
+  - Are sometimes hard to remove, or removing them can damage the print.
+- Layer adhesion, how strong printed layers tick together.
+  - Some slicers have settings for ...
 
 ## Strengths and weaknesses
 
