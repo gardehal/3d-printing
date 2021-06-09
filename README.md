@@ -95,7 +95,7 @@ A collection of 3D printing projects.
   - Difficulty removing print due to first layer being stuck.
   - Best fixes is to do test prints with different Z offset-settings, checking all prints before 5th layer, issues with first few layers are usually obvious by then.
 - Warping, causing prints to warp, adding curves to parts that are expected to be straight.
-  - Unknown why it happens, possible due to heating differences 
+  - Unknown why it happens, possible due to heating differences
 - Printers and prints oscillating, if the printer bed moves, can cause tall prints to move or come loose which ruins the print. Printers with large amount of moving parts can also cause the entire printer to move.
   - For printers with movable beds, use a brim to better grip the bed.
   - For printers with movable beds and where brims are nor working, orientate the print some other way. With supports it's possible to print long shapes diagonally.
@@ -103,19 +103,21 @@ A collection of 3D printing projects.
 - Brim, first layer added material around the base of the print.
   - Brims can be useful to secure small items to the bed and prevent blobbing.
   - Are sometimes hard to remove, or removing them can damage the print.
-- Layer adhesion, how strong printed layers tick together.
-  - Some slicers have settings for ...
+- Layer adhesion, how strong printed layers stick together. Adhesion is improved when:
+  - The extruder is forcing filament onto the previous layer, either by setting the height of each layer, or by increasing the speed or volume filament is fed though  the nozzle.
+  - The previous layer is heated so the filament binds better.
+  - Dust and particles in the room is kept to a minimum.
 
 ## Strengths and weaknesses
 
 - Strengths
-  - Print-in-place
-  - quick prototyping
-  - Lots of material ranging from soft and bendy to firm and snappy
+  - Print-in-place - a technique which enables printing parts captive inside others, eliminating the need for adding complex connection devices and allow moving pieces to be smaller.
+  - Quick prototyping - no need to spend hours creating wooden or metal shapes, or even mold for plastics.
+  - Lots of material - ranging from soft and bendy to firm and snappy. 
 - Weaknesses
-  - Slower mass production
-  - Mostly plastics and resin based material
-  - Weaker than structure due to layering
+  - Slower mass production - not suited to create large volumes of products.
+  - Mostly plastics and resin based material - limiting materials that can be used, but there are metal 3D printers which are very expensive.
+  - Weaker structure - weaker than some other plastic production due to printing layering thin strings of filament at a time, allowing for plastic not to bond properly.
 
 ## TinkerCad SVG copy method
 
