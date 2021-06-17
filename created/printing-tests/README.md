@@ -8,8 +8,8 @@ Printing sound objects vertically (round side down essentially) makes them sink 
 
 Created a baseline by three cubes and three negative space cylinders with baseline pegs for testing. Cylinders are 5, 10, 20 mm diameter, while cubes are 10, 15, 25 mm tall. Negative space cylinders are 1 mm up and 2 mm from left of cubes, cubes were then put together so the holes are 2 mm apart (by vertical lines).
 
-| Modification | Orientation of holes | Can baseline pegs pass though | Comment | Corrective measures |
-| --- | --- | --- | --- | --- |
-| None, baseline | Vertical |  |  |  |
-| None, baseline | Horizontal |  |  |  |
-| Incense height of negative space cylinders by 10% | Horizontal |  |  |  |
+| Id | Modification | Orientation of holes | 5mm WxH | 10mm WxH | 20mm WxH | Can baseline pegs pass though | Corrective measures | Comments |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| I | None, baseline | Vertical |  |  |  |  |  |  |
+| II | None, baseline | Horizontal | 5x5? | 10x10? | 20x19.5 | No | - | 5mm and 10mm pegs barely fit, 20mm peg does not as there is some overhang/collapse. Slight collapse on 5mm and 10 mm, but not enough to prevent pegs. |
+| III | Increased height of negative space cylinders by 10% upwards | Horizontal |  |  |  |  |  |  |
