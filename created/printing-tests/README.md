@@ -10,6 +10,6 @@ Created a baseline by three cubes and three negative space cylinders with baseli
 
 | Id | Modification | Orientation of holes | 5mm WxH | 10mm WxH | 20mm WxH | Can baseline pegs pass though | Corrective measures | Comments |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| I | None, baseline | Vertical |  |  |  |  |  |  |
-| II | None, baseline | Horizontal | 5x5? | 10x10? | 20x19.5 | No | - | 5mm and 10mm pegs barely fit, 20mm peg does not as there is some overhang/collapse. Slight collapse on 5mm and 10 mm, but not enough to prevent pegs. |
+| I | None, baseline | Vertical | 5x5+ | 10x10 | 20x20 | Yes | None | 5mm peg is a little loose in it's hole, 10mm and 20mm fits very nicely with the slightest of rubbing against the walls |
+| II | None, baseline | Horizontal | 5x5- | 10x10- | 20x19.5 | No | - | 5mm and 10mm pegs barely fit, 20mm peg does not as there is some overhang/collapse. Slight collapse on 5mm and 10 mm, but not enough to prevent pegs. |
 | III | Increased height of negative space cylinders by 10% upwards | Horizontal |  |  |  |  |  |  |
