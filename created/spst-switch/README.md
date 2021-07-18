@@ -409,3 +409,23 @@ Rough plans drawn in paint:
   - In future projects, significantly reduce change-documentation, but keep reviews.
 
 ---
+
+### Version 1.0.0
+
+#### Part-A
+
+- Added slots on each side of pivot for wires.
+- Removed models poking though the floor.
+- Added version without brim.
+
+#### Part-B
+
+- Moved locking lugs closer to 1/0 surface for better locking.
+
+#### Review
+
+- Version 1.0.0.
+- Part-A better interacts with other designs when wires can be gathered in the center of the housing.
+- Brim can be useful in some situations, but it was misplaced effort.
+- Locking lugs did not always bite when flicking the switch. Works better now.
+- In addition, re-adding groves for wires on hammer and anvil was considered, but the depth depends on wiring used. It will be more effective if the grove is etched out after print, if needed.
