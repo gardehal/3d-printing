@@ -73,4 +73,5 @@ Part list:
 1. Insert the pegs on hand-segment in the holes in the top of the segment.
 1. Attach the main gear to the top of the segment, outside the peg you just attached, on the same side as the servo horn.
 1. Insert the set of finger in hand-a1 and hand-b1, just like with hand-c1, and lock it in place with the last servo.
+1. You might want to secure the servo in hand-c1 to the set of fingers with a rubber band or a length of string.
 1. Wire it all up.
