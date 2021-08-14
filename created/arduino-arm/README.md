@@ -75,3 +75,15 @@ Part list:
 1. Insert the set of finger in hand-a1 and hand-b1, just like with hand-c1, and lock it in place with the last servo.
 1. You might want to secure the servo in hand-c1 to the set of fingers with a rubber band or a length of string.
 1. Wire it all up.
+
+## Sketches
+
+![rough servo gear plan](./docs/001-rough-servo-gear-plan.png)
+![WIP](./docs/.png)
+![scapula socket](./docs/003-part-a2-scapula-socket.png)
+![humerus](./docs/004-part-b-humerus.png)
+![radius](./docs/005-part-c-radius.png)
+![ossa metacapri](./docs/006-part-d-ossa-metacapri.png)
+![ossa digitorum](./docs/007-part-e-ossa-digitorum.png)
+![anatomical arm refference](./docs/008-arm-refference.png)
+![9v holder](./docs/010-9v-casing-cap-switch-sketch.png)
