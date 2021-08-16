@@ -3,6 +3,7 @@
 3D printed add-on to make mice a little more comfortable to use without buying a new product.
 
 Using F-16 Sidestick Grip by JFlyer81 on Thingiverse: https://www.thingiverse.com/thing:4544115
+Using Logitech G502 Pinkie rest by tarifacarlos on Thingiverse: https://www.thingiverse.com/thing:4834530
 
 Example of similar style: https://www.3m.com/3M/en_US/p/d/cbgbjw011267/
 
