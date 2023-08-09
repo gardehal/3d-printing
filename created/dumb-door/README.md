@@ -28,6 +28,39 @@ Like a smart door, but dumb. Does not require invasive installation.
 
 ## Setup guide
 
+1. Load frame-upper and frame-lower into a CAD with a rough 1:1 drawing of your handle and lock and check the following:
+  - frame-upper handle shape and size
+  - frame-lower fit with locking mechanism, height and width wise
+  - lock-adapter fits your locking mechanism
+  - lock gear and motor gears fit and get a good grip
+1. Print the following parts (optional order, but recommended so you can multitask with steps 3+):
+  - 1x frame-upper
+  - 1x frame-lower
+  - 1x lock-adapter
+  - 1x battery-case
+  - 1x brain-case
+  - 1x lock-gear
+  - 2x lock-gear-pin
+  - 1x motor-gear
+  - 1x motor-case
+  - 2x motor-case-clip
+  - 1x brain-lid
+  - 1x battery-lid
+1. Check that these parts physically fit and can be assembled with your setup:
+  - frame-upper can be put over your handle and sits reasonably well when assembled as shown in the graphics
+  - frame-lower can be attached to frame-upper and is flat towards the door
+  - lock-adapter can be attached to the locking mechanism without any other movement than rotating with the lock
+1. Adjust frames or gears as appropriate
+1. Assemble the parts:
+  - battery-case - using springs and wires to connect the batteries in series
+  - brain case - attach LED, on/off switch, open/lock button, assemble breadboard with parts as shown in the graphics, wire everything up
+
+...
+assemble motor + case + gear
+attach lock adapter + gear
+nuts and bolts and lids
+attach everything to frame and secure to upper frame on the door
+
 ## Assembly
 
 TODO
