@@ -36,3 +36,24 @@ pics of frame on door, assembled individual parts, final assembly
 ## Circuit diagrams
 
 TODO
+
+## Retrospect
+
+#### Worries
+electronics: voltages etc. enough for motor and power to pico?
+battery charge only lasting a few days tops (annoying for a real world product)
+non-elegant design, batteries could be put below handle etc. but would make it more complicated to adapt to other doors
+
+#### Good
+hinges
+brackets + modular design
+fun
+incorporated other parts like nuts/bolts/switch/buttons
+potentially usable
+pins worked well
+
+#### Bad
+initial design was bad, did not think it though
+
+
+#### Neutral
