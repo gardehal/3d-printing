@@ -4,10 +4,34 @@ Like a smart door, but dumb. Does not require invasive installation.
 
 ## TODO
 
-- Structural body that will exert torque on lock and door handle. Should be easy to adjust 3D design for doors with different length between lock and handle.
-- Holder for other electronics like PICO, motor driver, power switch, (multicolour) status LED, lock/unlock button.
 - API on PICO that receives secure calls over LAN to change lock state. Login/simple user functionality. Some basic stats and logs like last (100?) change datetime and by who, number of lock calls, number of unlocks calls, ...
 - Charts and final documentation.
+- Guide for print and assembly
+
+## Part list
+
+- 2x 18650 Lithium-Ion rechargeable batteries (with tip)
+- 1x NEMA-17 step-motor
+- 1x motor driver
+- 1x JST PH 4-Pin cable (for motor)
+- 1x Raspberry Pi Pico W
+- 1x on/off switch
+- 1x button (optional)
+- 1x multicolour LED (optional)
+- 1x half-size breadboard (optional)
+- 2x zip ties 3mm x 1mm x 80+mm
+- 3x M4 x 12mm bolts/screws + nuts
+- 4x M5 x 12mm bolts/screws + nuts (2x is fine)
+- 1x push spring (7.5mm x 13mm), cut in half
+- solid core wires
+- some string (optional)
+
+## Setup guide
+
+## Assembly
+
+TODO
+pics of frame on door, assembled individual parts, final assembly
 
 ## Circuit diagrams
 
