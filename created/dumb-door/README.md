@@ -40,31 +40,35 @@ Like a smart door, but dumb. Does not require invasive installation.
   - 1x battery-case
   - 1x brain-case
   - 1x lock-gear
-  - 2x lock-gear-pin
   - 1x motor-gear
   - 1x motor-case
   - 2x motor-case-clip
   - 1x brain-lid
   - 1x battery-lid
+  - 2x lock-gear-pin
 1. Check that these parts physically fit and can be assembled with your setup:
   - frame-upper can be put over your handle and sits reasonably well when assembled as shown in the graphics
   - frame-lower can be attached to frame-upper and is flat towards the door
   - lock-adapter can be attached to the locking mechanism without any other movement than rotating with the lock
 1. Adjust frames or gears as appropriate
 1. Assemble the parts:
-  - battery-case - using springs and wires to connect the batteries in series
-  - brain case - attach LED, on/off switch, open/lock button, assemble breadboard with parts as shown in the graphics, wire everything up
-
-...
-assemble motor + case + gear
-attach lock adapter + gear
-nuts and bolts and lids
-attach everything to frame and secure to upper frame on the door
+  - battery-case - using springs and wires to connect the batteries in series. Insert a M4 nut into the case, snap the lid into place and secure with a M4 bolt
+  - brain case - attach LED, on/off switch, open/lock button, assemble breadboard with parts as shown in the graphics, wire everything up. Insert a M4 nut into the case, snap the lid into place and secure with a M4 bolt
+  - motor-case - place the motor in the case and secure it with the clips, then slot a M4 nut into the motor-gear and screw it tightly onto the motor drive
+  - lock-gear - inset lock-gear-pins (short clip side) into the lock-gear
+  - frame-lower - snap the battery-case, brain-case, motor-case into the frame-lower as shown in assembly diagrams
+1. Attach lock-adapter to the lock, using zip ties
+1. Place frame-upper on the door handle, shim the frame-lower into place from below the lock-adapter, such that the inner "ears" of the frame is placed behind the lock-adapter. Use 2-4 M5 bolts and nuts to secure frame-upper to frame-lower
 
 ## Assembly
 
 TODO
 pics of frame on door, assembled individual parts, final assembly
+
+[Frame, seen from the top](./assembly/01-frames-top.png)
+[Frame, seen from the side](./assembly/02-frames-side.png)
+frame-upper (light blue)
+frame-lower (dark blue), not the "ears" aligned with the lock
 
 ## Circuit diagrams
 
