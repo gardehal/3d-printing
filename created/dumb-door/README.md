@@ -73,20 +73,21 @@ TODO
 ## Retrospect
 
 #### Worries
-electronics: voltages etc. enough for motor and power to pico?
-battery charge only lasting a few days tops (annoying for a real world product)
-non-elegant design, batteries could be put below handle etc. but would make it more complicated to adapt to other doors
+
+TODO
+- electronics: voltages etc. enough for motor and power to pico?
+- battery charge only lasting a few days tops (annoying for a real world product)
+- non-elegant design, batteries could be put below handle etc. but would make it more complicated to adapt to other doors
 
 #### Good
-hinges
-brackets + modular design
-fun
-incorporated other parts like nuts/bolts/switch/buttons
-potentially usable
-pins worked well
+
+- Ball hinges work well and if printed in the correct orientation (brain-case) they work great, otherwise the hinges may fall off if pushed too much (battery-case). Easy to add to parts and print compared to machining-inspired cylindrical hinges.
+- Modular design and use of brackets (e.g. battery-case-standalone-bracket) to build a frame worked very well, parts can be switched out without having to print the entire 10+ hour suite of components + frame(s). The balls and receptacles could have a lower tolerances, balls are 4.5mm and receptacles are 5mm, with a 0.5 spacing between bracket and case on either side. Balls could probably be 4.75mm and spacing between bracket and case be closer to 0.1-0.25mm. Note that these frames/brackets should be printed vertically for the flexibility.
+- Incorporated other parts like nuts/bolts/switch/buttons which are useful for areas where printed parts are too weak or to difficult to make.
+- Potentially usable in a real setting (assuming someone can maintain software for security updates etc.)
+- Printed pins (lock-gear-pin) worked well, where similar attempts at pins have been lackluster.
+- Fun project, developed useful knowledge and concepts for later use.
 
 #### Bad
-initial design was bad, did not think it though
 
-
-#### Neutral
+- Initial design was bad and relied on impossible physics, did not think it through.
