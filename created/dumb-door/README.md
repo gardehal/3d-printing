@@ -6,19 +6,23 @@ Like a smart door, but dumb. Does not require invasive installation.
 
 - API on PICO that receives secure calls over LAN to change lock state. Login/simple user functionality. Some basic stats and logs like last (100?) change datetime and by who, number of lock calls, number of unlocks calls, ...
 - Charts and final documentation.
+- Update parts list for 3 battery 11.1V setup, i.e. + 1 bat, 1x LD1117 3.3V voltage regulator)
+
+## Code
+
+[Embedded systems project](https://github.com/gardehal/embedded-systems/blob/master/projects/dumb-door/dumb-door.md)
 
 ## Part list
 
 - 2x 18650 Lithium-Ion rechargeable batteries (with tip)
-- 1x NEMA-17 step-motor
-- 1x motor driver
-- 1x JST PH 4-Pin cable (for motor)
+- 1x NEMA-17 sized stepper motor (and cables if not included)
+- 1x stepper motor driver
 - 1x Raspberry Pi Pico W
 - 1x on/off switch
 - 1x button (optional)
-- 1x multicolour LED (optional)
+- 1x multicolour LED + 3x 220 Ohm resistors (all optional)
 - 1x half-size breadboard (optional)
-- 2x zip ties 3mm x 1mm x 80+mm
+- 2x zip ties 3mm x 1mm x 80mm+
 - 3x M4 x 12mm bolts/screws + nuts
 - 4x M5 x 12mm bolts/screws + nuts (2x is fine)
 - 1x push spring (7.5mm x 13mm), cut in half
@@ -36,12 +40,12 @@ Like a smart door, but dumb. Does not require invasive installation.
     - 1x frame-lower
     - 1x lock-adapter
     - 1x battery-case
-    - 1x brain-case
+    - 1x brain-lid
     - 1x lock-gear
     - 1x motor-gear
     - 1x motor-case
     - 2x motor-case-clip
-    - 1x brain-lid
+    - 1x brain-case
     - 1x battery-lid
     - 2x lock-gear-pin
 1. Check that these parts physically fit and can be assembled with your setup:
@@ -51,7 +55,7 @@ Like a smart door, but dumb. Does not require invasive installation.
 1. Adjust frames or gears as appropriate
 1. Assemble the parts:
     - battery-case - using springs and wires to connect the batteries in series. Insert a M4 nut into the case, snap the lid into place and secure with a M4 bolt
-    - brain case - attach LED, on/off switch, open/lock button, assemble breadboard with parts as shown in the graphics, wire everything up. Insert a M4 nut into the case, snap the lid into place and secure with a M4 bolt
+    - brain-lid - attach LED, on/off switch, open/lock button, assemble breadboard with parts as shown in the graphics, wire everything up. Insert a M4 nut into the case, snap the lid into place and secure with a M4 bolt
     - motor-case - place the motor in the case and secure it with the clips, then slot a M4 nut into the motor-gear and screw it tightly onto the motor drive
     - lock-gear - inset lock-gear-pins (short clip side) into the lock-gear
     - frame-lower - snap the battery-case, brain-case, motor-case into the frame-lower as shown in assembly diagrams
@@ -64,14 +68,14 @@ Like a smart door, but dumb. Does not require invasive installation.
 <img src="./assembly/02-frames-side.png" alt="Frame, seen from the side" height="200"/>
 
 - frame-upper (light blue)
-- frame-lower (dark blue), not the "ears" aligned with the lock
+- frame-lower (dark blue), note the "ears" aligned with the lock
 
 <img src="./assembly/03-components-top.png" alt="Components added, seen from the top" height="200"/>
 <img src="./assembly/04-components-side.png" alt="Components added, seen from the side" height="200"/>
 
 - lock-adapter (orange)
-- brain-case (white), including button, LED, on/off switch
-- motor-case (hot pink), including motor and motor-case-clips
+- brain-case (white), including brain-lid, button, LED, on/off switch
+- motor-case (hot pink), including motor and 2 motor-case-clips
 - battery-case (red), including battery-lid
 
 <img src="./assembly/05-gears-top.png" alt="Gears added, seen from the top" height="200"/>
@@ -81,18 +85,7 @@ Like a smart door, but dumb. Does not require invasive installation.
 - lock-gear-pins (light green)
 - motor-gear (light pink)
 
-## Circuit diagrams
-
-TODO
-
 ## Retrospect
-
-#### Worries
-
-TODO
-- electronics: voltages etc. enough for motor and power to pico?
-- battery charge only lasting a few days tops (annoying for a real world product)
-- non-elegant design, batteries could be put below handle etc. but would make it more complicated to adapt to other doors
 
 #### Good
 
@@ -106,3 +99,4 @@ TODO
 #### Bad
 
 - Initial design was bad and relied on impossible physics, did not think it through.
+- The brain-case module could've been better designed, the face plate with components should be removable for easier access to sensors on the face of the case (e.g. make face and bottom a single piece). Making it a little flatter and wider it could include a battery and make for an OK remote controller while still including the half-sized breadboard. Alternatively longer and thinner with a micro breadboard.
