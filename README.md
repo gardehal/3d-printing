@@ -85,6 +85,7 @@ A collection of 3D printing projects.
     1. magnets, nice for parts that conveniently open and close with some elegance. Mind the damage it may do to data storage or computers. 
     1. string, for a more esoteric or mystic theme, also common and cheap.
     1. velcro, can be used for parts that doesn't need to be exact, but rather simple  and quick.
+- Big/Complex models can be simplified loading it into Autodesks MeshMixer -> Cut/Edit as needed -> Export .stl -> Load into slicer with a repair/fix function (e.g. Prusa Slicer) -> Load into whatever program had a size limit
 
 ## General printing knowledge
 
