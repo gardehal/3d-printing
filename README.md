@@ -13,7 +13,7 @@ A collection of 3D printing projects.
 - Designing
   - [TinkerCad](tinkercad.com/) for creating the 3D models to print.
   - [Autodesk Fusion 360](https://www.autodesk.com/products/fusion-360/free-trial) for creating the 3D models to print.
-  - Calipers (preferably digital) for measuring physical object to copy or measure printing errors. [Useful printed part](https://hackaday.com/2018/09/09/3d-printed-radius-gauge-just-add-calipers-and-a-wee-bit-of-math/) for finding the radius of round objects.
+  - Calipers (preferably digital) for measuring physical object to copy or measure printing errors. [Useful printed part, Hackaday](https://hackaday.com/2018/09/09/3d-printed-radius-gauge-just-add-calipers-and-a-wee-bit-of-math/) for finding the radius of round objects.
 
 - Printing
   - [Prusa Slicer](https://www.prusa3d.com/prusaslicer/) for translating 3D object to GCODE which the printer uses for printing.
@@ -29,7 +29,7 @@ A collection of 3D printing projects.
 - [Prusaprinters](https://www.prusaprinters.org) for community made 3D models. 
 - [Sketchfab](https://sketchfab.com) for community made 3D models. 
 - [Stlfinder](https://www.stlfinder.com) to find community made 3D models.
-- [3D printing handbook](https://help.prusa3d.com/en/article/3d-printing-handbooks_125045/) that came with printer, contains some useful information.
+- [3D printing handbook, Prusa3d](https://help.prusa3d.com/en/article/3d-printing-handbooks_125045/) that came with printer, contains some useful information.
 - [Simplify3d](https://www.simplify3d.com/support/print-quality-troubleshooting/) common problems.
 
 ## General design knowledge
@@ -129,7 +129,7 @@ A collection of 3D printing projects.
       - Flash is optional but helps for contrasts.
       - Use a darker background or use flash to cast shadows.
   1. Import the images to [Inkscape](https://inkscape.org).
-  1. Convert to SVG (based on [this](https://designbundles.net/design-school/how-to-convert-a-jpeg-to-svg-in-inkscape) guide)
+  1. Convert to SVG (based on [DesignBundles](https://designbundles.net/design-school/how-to-convert-a-jpeg-to-svg-in-inkscape) guide)
     1. Import and select image. Resize if necessary.
     1. Select image and click Path -> Trace Bitmap
     1. Select single scan with "Brightness cutoff".
