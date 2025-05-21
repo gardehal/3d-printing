@@ -1,1 +1,0 @@
-Hexagonal paper towel holder by lukes3d on Thingiverse: https://www.thingiverse.com/thing:4945624
