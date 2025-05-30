@@ -6,3 +6,4 @@ Addons for sinks and accessories, sponges, soap etc.
 
 - soap riser for normal Lano bottle
 - optional sponge holder raised up a little so it dries faster
+- soap and sponge could be wall mounted to make bathroom seem a little less cluttered
