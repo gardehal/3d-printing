@@ -5,11 +5,11 @@ Note: the rest itself is not customizable, but this will provide a description o
 
 ## How to
 
-1. Download and print [this](https://www.thingiverse.com/thing:3694367) angle measuring tool to find the specific shape of your nose bridge
+1. Download and print [this](https://www.thingiverse.com/thing:3694367) profile tool to find the specific shape of your nose bridge
 2. Measure your nose:
-  - At least once vertically with the angle tool, take a picture
+  - At least once vertically with the profile tool, take a picture
   - A couple of times horizontally, 5-10mm apart, taking pictures and keeping track of which measurement is where
-3. Upload pictures to your computer and trace along the tool so you can create a shape on a transparent layer that can be transferred to vector image and imported to your 3D modeling software 
+3. Upload pictures to your computer and trace along the tool so you can create a shape on a transparent layer that can be transferred to vector image and imported to your 3D modeling software. Example with [GIMP](https://www.gimp.org/downloads/):
   - Import pictures to GIMP
   - Create new layer
   - Draw your shape on the layer
