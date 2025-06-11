@@ -18,7 +18,8 @@ Note: the rest itself is not customizable, but this will provide a description o
 4. Assemble the imported shapes to recreate an estimation of your nose
 5. From this shape, create a nose rest that fits and you can add to your glasses
 
+The same process can be used to make a mock model if your glasses in a 3D modeling program, though the profiling tool is not needed, just take front, top, and side pictures of the glasses themselves.
+
 ## TODO
 
-- easy way to attach to glasses
 - alternate way of finding nose shape/model, try some camera 3D mapping tool?
