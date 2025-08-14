@@ -23,14 +23,15 @@ If you got no hose in your life and plan to do it all by hand, a funnel might be
 ## Tube 40mm
 - 40mm outer diameter
 - 36mm inner
-- male top tapers from 40mm to 35mm over ~9mm then straight at 35mm for ~15mm 
+- male top tapers from 40mm to 35.5mm over ~8mm then straight at 35.5mm for ~12mm 
 
 ## Tube 30mm
-- 40mm outer diameter
-- 36mm inner
+- 30mm outer diameter
+- 28mm inner
 - male top tapers from 30mm to 27.5mm over ~5mm then straight at 27.5mm for ~15mm 
 
 # TODO
+- 30mm 45 degree tube because I want one
 - hose quick connectors (and some way to keep them connected to other pipes so they don't randomly just get pulled up by hose moving- anchor points, large buried part, idk)
 - protective caps so dirt, animals doesn't creep into pipes, and so it can be printed in UV safe material to protect e.g. pla pipes sticking up
 - more details on how do plan and lay out pipes, e.g. covering top holes of perforated pipes so dirt doesn't constantly leak in, blocking it, advice on using reservoirs or similar
