@@ -17,6 +17,20 @@ Water flows downhill, lay pipes accordingly.
 Use the quick-release hose adapters that connect to garden hoses to transport water above the soil. 
 If you got no hose in your life and plan to do it all by hand, a funnel might be helpful.
 
+Not tested yet but in theory: 
+Pipes should be laid where they shrink as you go down, which allows for a small reservoir that can be filled and the water in it can be left to trickle out through perforated tubes at its own pace.
+The tubes under plants and roots should be perforated, but taped up at the top so roots and dirt won't enter and block the pipes.
+
+Example:
+```
+_____      plant
+ \ /        \|/            \|/
+ | |------------------------------- soil
+ | |         |             /|   
+ | |<-40mm  /|\           / |\  roots
+ \ \       / \ \         / \ \ \ 
+  =============================== <-30mm
+```
 
 # Dimension details
 
@@ -31,7 +45,5 @@ If you got no hose in your life and plan to do it all by hand, a funnel might be
 - male top tapers from 30mm to 27.5mm over ~5mm then straight at 27.5mm for ~15mm 
 
 # TODO
-- 30mm 45 degree tube because I want one
 - hose quick connectors (and some way to keep them connected to other pipes so they don't randomly just get pulled up by hose moving- anchor points, large buried part, idk)
-- protective caps so dirt, animals doesn't creep into pipes, and so it can be printed in UV safe material to protect e.g. pla pipes sticking up
 - more details on how do plan and lay out pipes, e.g. covering top holes of perforated pipes so dirt doesn't constantly leak in, blocking it, advice on using reservoirs or similar
