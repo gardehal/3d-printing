@@ -23,6 +23,8 @@ The tubes under plants and roots should be perforated, but taped up at the top s
 
 Example:
 ```
+Protective cap and funnel
+ v
 _____      plant
  \ /        \|/            \|/
  | |------------------------------- soil
@@ -46,4 +48,3 @@ _____      plant
 
 # TODO
 - hose quick connectors (and some way to keep them connected to other pipes so they don't randomly just get pulled up by hose moving- anchor points, large buried part, idk)
-- more details on how do plan and lay out pipes, e.g. covering top holes of perforated pipes so dirt doesn't constantly leak in, blocking it, advice on using reservoirs or similar
