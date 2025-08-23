@@ -48,3 +48,4 @@ _____      plant
 
 # TODO
 - hose quick connectors (and some way to keep them connected to other pipes so they don't randomly just get pulled up by hose moving- anchor points, large buried part, idk)
+- see if its possible to make a lwo pressure valve (ball, needle), can use flex if otherwise not possible
