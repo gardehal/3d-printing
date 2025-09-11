@@ -18,3 +18,4 @@ Fun dispenser for pills, capsules, vitamins, breath mints, or small candies.
 
 # Useful? 
 - Blister popper - https://www.thingiverse.com/thing:6481698
+  - "blister_popper.stl" in this project is based on this, but with minor modifications
